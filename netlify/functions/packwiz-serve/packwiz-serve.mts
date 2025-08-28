@@ -1,45 +1,51 @@
+// netlify/functions/packwiz-serve.mts
 import { Context } from "@netlify/functions";
-import { readFile } from "node:fs/promises";
+import { readFile, stat as statFile } from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 
-/**
- * Resolve the project root from this file's location.
- * In the published Lambda bundle Netlify preserves relative paths for
- * files listed in `included_files`, so going two levels up from
- * `netlify/functions/` lands at the repository root.
- */
-const PROJECT_ROOT = path.resolve(__dirname, "..", "..", );
+const ROOT = process.cwd();
+const MODPACKS = path.join(ROOT, "modpacks");
 
-export default async (request: Request, _context: Context) => {
-  try {
-    const url = new URL(request.url);
+function isText(name: string) { return /\.(toml|txt|json|sha256)$/i.test(name); }
+function mime(name: string) {
+  const ext = path.extname(name).toLowerCase();
+  if (ext === ".toml" || ext === ".txt" || ext === ".sha256") return "text/plain; charset=utf-8";
+  if (ext === ".json") return "application/json; charset=utf-8";
+  if (ext === ".zip") return "application/zip";
+  if (ext === ".jar") return "application/java-archive";
+  return "application/octet-stream";
+}
 
-    // Path looks like: /.netlify/functions/packwiz-serve/<slug>
-    const segments = url.pathname.split("/").filter(Boolean);
-    const slug = segments[segments.length - 1].toLowerCase();
+export default async (req: Request, _ctx: Context) => {
+  const url = new URL(req.url);
+  const pathname = url.pathname.replace(/^\/\.netlify\/functions\/[^/]+/, "");
+  const parts = pathname.split("/").filter(Boolean);
 
-    if (!slug || /[^a-zA-Z0-9-_]/.test(slug)) {
-      return new Response("Bad slug", { status: 400 });
-    }
-    
-    const filePath = path.join(PROJECT_ROOT, "modpacks", slug, "pack.toml");
-    console.log(filePath)
-    const toml = await readFile(filePath, "utf8");
+  if (parts.length < 2) return new Response("No index", { status: 404 });
 
-    return new Response(toml, {
-      status: 200,
-      headers: {
-        "Content-Type": "application/toml; charset=utf-8",
-        // cache a bit at the edge; tweak as you like
-        "Cache-Control": "public, max-age=300, s-maxage=300",
-      },
-    });
-  } catch (err: any) {
-    // Return 404 if the pack doesn't exist; 500 for other problems
-    if (err && (err.code === "ENOENT" || err.message?.includes("ENOENT"))) {
-      return new Response("pack.toml not found for that slug", { status: 404 });
-    }
-    return new Response("Server error", { status: 500 });
-  }
+  const slug = parts[0].toLowerCase();
+  console.log(slug);
+  if (!/^[a-z0-9-_]+$/.test(slug)) return new Response("Bad slug", { status: 400 });
+
+  const rel = decodeURIComponent(parts.slice(1).join("/"));
+  if (!rel || rel.includes("..")) return new Response("Invalid path", { status: 400 });
+
+  const base = path.join(MODPACKS, slug);
+  const abs = path.normalize(path.join(base, rel));
+  if (!abs.startsWith(base + path.sep)) return new Response("Invalid path", { status: 400 });
+  console.log(abs);
+  const st = await statFile(abs).catch(() => null);
+  if (!st || !st.isFile()) return new Response("Not found", { status: 404 });
+
+  const name = path.basename(abs);
+  const data = await readFile(abs);
+  const body: BodyInit = isText(name) ? data.toString("utf8") : new Uint8Array(data);
+
+  return new Response(body, {
+    status: 200,
+    headers: {
+      "Content-Type": mime(name),
+      "Cache-Control": "public, max-age=300, s-maxage=300",
+    },
+  });
 };
