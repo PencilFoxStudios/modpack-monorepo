@@ -1,6 +1,6 @@
 [functions]
   # Bundle your modpack files so the function can read them at runtime
-  included_files = ["modpacks/**/**"]
+  included_files = ["modpacks/**"]
 
 # Map /:slug and /:slug/* to the function
 [[redirects]]

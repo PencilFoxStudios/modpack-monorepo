@@ -79,6 +79,7 @@ export default async (request: Request, _context: Context) => {
       },
     });
   } catch (err: any) {
+    console.log(err);
     if (err?.code === "ENOENT") return notFound("File not found");
     return new Response("Server error", { status: 500 });
   }
