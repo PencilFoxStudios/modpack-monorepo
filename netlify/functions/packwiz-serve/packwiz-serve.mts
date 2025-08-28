@@ -1,8 +1,8 @@
 import { Context } from "@netlify/functions";
-import { readFile, stat as statFile } from "node:fs/promises";
+import { readFile, readdir, stat as statFile } from "node:fs/promises";
 import path from "node:path";
 
-const PROJECT_ROOT =  (process.platform === "win32" ? process.cwd() : ""); // points to /var/task inside the Lambda
+const PROJECT_ROOT = process.cwd(); // points to /var/task inside the Lambda
 
 function isSafeSlug(s: string) {
   return /^[a-z0-9-_]+$/.test(s);
@@ -80,6 +80,10 @@ export default async (request: Request, _context: Context) => {
   } catch (err: any) {
     // Helpful logs during debugging; safe to keep or remove
     console.log(err)
+    // list what's in the relative directory to this process
+    const dir = path.dirname(PROJECT_ROOT);
+    const files = await readdir(dir);
+    console.log("Files in directory:", files);
     if (err?.code === "ENOENT") return notFound("File not found");
     return new Response("Server error", { status: 500 });
   }
