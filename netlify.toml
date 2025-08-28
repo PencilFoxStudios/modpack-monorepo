@@ -1,8 +1,15 @@
 [functions]
-  # Bundle your modpack files so the function can read them at runtime
+  # Ship the modpacks into the function bundle
   included_files = ["modpacks/**"]
 
-# Map /:slug and /:slug/* to the function
+# Home → pnfx.dev
+[[redirects]]
+  from = "/"
+  to   = "https://pnfx.dev"
+  status = 301
+  force = true
+
+# Route /:slug and /:slug/* to the function
 [[redirects]]
   from = "/:slug"
   to   = "/.netlify/functions/packwiz-serve/:slug"
@@ -12,12 +19,6 @@
   from = "/:slug/*"
   to   = "/.netlify/functions/packwiz-serve/:slug/*"
   status = 200
-
-[[redirects]]
-  from = "/"
-  to = "https://pnfx.dev"
-  status = 301
-  force = true
 
 [[headers]]
 for = "/"

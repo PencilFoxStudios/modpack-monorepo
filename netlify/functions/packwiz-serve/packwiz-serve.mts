@@ -1,10 +1,8 @@
 import { Context } from "@netlify/functions";
-import { readFile } from "node:fs/promises";
+import { readFile, stat as statFile } from "node:fs/promises";
 import path from "node:path";
 
-
-const PROJECT_ROOT = process.cwd();
-
+const PROJECT_ROOT = process.cwd(); // points to /var/task inside the Lambda
 
 function isSafeSlug(s: string) {
   return /^[a-z0-9-_]+$/.test(s);
@@ -16,7 +14,7 @@ function isTextFile(name: string) {
 
 function contentType(name: string) {
   const ext = path.extname(name).toLowerCase();
-  if (ext === ".toml") return "text/plain; charset=utf-8"; // display in browser
+  if (ext === ".toml") return "text/plain; charset=utf-8"; // render in browser
   if (ext === ".txt" || ext === ".sha256") return "text/plain; charset=utf-8";
   if (ext === ".json") return "application/json; charset=utf-8";
   if (ext === ".zip") return "application/zip";
@@ -34,53 +32,54 @@ function notFound(msg = "Not found") {
 export default async (request: Request, _context: Context) => {
   try {
     const url = new URL(request.url);
-    const parts = url.pathname.split("/").filter(Boolean);
 
-    if (parts.length < 1) return badRequest();
+    // Strip a possible "/.netlify/functions/<name>" prefix so this works
+    // whether reached directly or via redirect.
+    let pathname = url.pathname.replace(/^\/\.netlify\/functions\/[^/]+/, "");
+    const parts = pathname.split("/").filter(Boolean);
+
+    if (parts.length < 1) return badRequest("Missing slug");
+
+    // Enforce lowercase slugs + lowercase directories on disk
     const slug = parts[0].toLowerCase();
     if (!isSafeSlug(slug)) return badRequest("Bad slug");
 
-    // No directory listing: "/:slug" or "/:slug/" returns 404
+    // No directory listing at "/:slug" (or "/:slug/")
     if (parts.length === 1) return notFound("No index for this path");
 
     const afterSlug = decodeURIComponent(parts.slice(1).join("/"));
+    if (!afterSlug) return badRequest("Missing file");
+    if (afterSlug.includes("..")) return badRequest("Invalid path");
 
-    // Block traversal & weird paths
-    if (!afterSlug || afterSlug.includes("..")) return badRequest();
+    // Resolve and sandbox the request under /modpacks/:slug
+    const baseDir = path.join(PROJECT_ROOT, "modpacks", slug);
+    const targetPath = path.normalize(path.join(baseDir, afterSlug));
 
-    // Allowlist:
-    // - pack.toml
-    // - index.toml
-    // - mods/<...> (must reference a file, not a directory)
-    let relativeFile: string | null = null;
-    if (afterSlug === "pack.toml" || afterSlug === "index.toml") {
-      relativeFile = afterSlug;
-    } else if (afterSlug.startsWith("mods/") && !afterSlug.endsWith("/")) {
-      relativeFile = afterSlug;
-    } else {
-      return notFound();
-    }
+    // Ensure the resolved path stays inside the slug directory
+    const baseWithSep = baseDir.endsWith(path.sep) ? baseDir : baseDir + path.sep;
+    if (!targetPath.startsWith(baseWithSep)) return badRequest("Invalid path");
 
-    const absPath = path.join(PROJECT_ROOT, "modpacks", slug, relativeFile);
-    const filename = path.basename(relativeFile);
+    // Must be a file, not a directory
+    const st = await statFile(targetPath);
+    if (!st.isFile()) return notFound("Not a file");
+
+    // Read + choose body type
+    const filename = path.basename(targetPath);
     const mime = contentType(filename);
-
-    const buf = await readFile(absPath);
-
-    // To satisfy BodyInit typing and display text in browser:
-    const body: BodyInit = isTextFile(filename)
-      ? buf.toString("utf8") // text types render inline in the browser
-      : new Uint8Array(buf); // binary types
+    const buf = await readFile(targetPath);
+    const body: BodyInit = isTextFile(filename) ? buf.toString("utf8") : new Uint8Array(buf);
 
     return new Response(body, {
       status: 200,
       headers: {
         "Content-Type": mime,
         "Cache-Control": "public, max-age=300, s-maxage=300",
+        // NO Content-Disposition → text renders inline in browser
       },
     });
   } catch (err: any) {
-    console.log(err);
+    // Helpful logs during debugging; safe to keep or remove
+    console.error("serve error:", err?.code || err?.message || err);
     if (err?.code === "ENOENT") return notFound("File not found");
     return new Response("Server error", { status: 500 });
   }
