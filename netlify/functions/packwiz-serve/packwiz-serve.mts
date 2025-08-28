@@ -3,7 +3,8 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 
 
-const PROJECT_ROOT = path.resolve(__dirname, "..", "..", "..");
+const PROJECT_ROOT = process.cwd();
+
 
 function isSafeSlug(s: string) {
   return /^[a-z0-9-_]+$/.test(s);
