@@ -1,0 +1,13 @@
+name = "Seven Days to Survive"
+filename = "7 Days To Survive-fabric-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3xyyjH9j/versions/wiEuyyaS/7%20Days%20To%20Survive-fabric-1.1.1.jar"
+hash-format = "sha512"
+hash = "d019c77c74a29d45490f294d5c76a7495fb47c6de1789bbe2fea72b01888080977833509814806ac96280a4e4d5cef671d0f6d3ae8052c6841756349d9fe95b3"
+
+[update]
+[update.modrinth]
+mod-id = "3xyyjH9j"
+version = "wiEuyyaS"

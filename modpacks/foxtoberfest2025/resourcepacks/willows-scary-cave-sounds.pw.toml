@@ -1,0 +1,13 @@
+name = "Willow's Horror Cave Sounds"
+filename = "willowscavesounds.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/DunlLunz/versions/rS5YSMh1/willowscavesounds.zip"
+hash-format = "sha512"
+hash = "e79f171c265a0a58b3a117aabb9b42ec53b6916e8e5bef26c4ba2e4d90cdc116c86fc88836e7da52f7a1a04248b09fa44117aceec3e78bfad83c2e1b89c4405f"
+
+[update]
+[update.modrinth]
+mod-id = "DunlLunz"
+version = "rS5YSMh1"

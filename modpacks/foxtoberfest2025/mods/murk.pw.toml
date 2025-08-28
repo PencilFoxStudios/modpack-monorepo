@@ -1,0 +1,13 @@
+name = "The Murk - Darkness Consumes"
+filename = "murk-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/obHHL1mf/versions/TiKZVXFN/murk-1.0.0.jar"
+hash-format = "sha512"
+hash = "5cc34f75a2f73c28e455b35cd89d9ed4f8b244cd9b88686fda0f724e0ba07b310f4efdbbd868fde96266e3f49e6118781a6d8825450dca2b193e238f21ed76df"
+
+[update]
+[update.modrinth]
+mod-id = "obHHL1mf"
+version = "TiKZVXFN"
