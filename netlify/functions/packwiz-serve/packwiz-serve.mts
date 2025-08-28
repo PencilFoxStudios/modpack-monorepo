@@ -2,7 +2,7 @@ import { Context } from "@netlify/functions";
 import { readFile, stat as statFile } from "node:fs/promises";
 import path from "node:path";
 
-const PROJECT_ROOT = process.cwd() + (process.platform === "win32" ? "" : "/modpack-monorepo"); // points to /var/task inside the Lambda
+const PROJECT_ROOT =  (process.platform === "win32" ? process.cwd() : ""); // points to /var/task inside the Lambda
 
 function isSafeSlug(s: string) {
   return /^[a-z0-9-_]+$/.test(s);
