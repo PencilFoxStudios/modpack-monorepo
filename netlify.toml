@@ -1,7 +1,8 @@
 [functions]
   # Ship the modpacks into the function bundle
   included_files = ["modpacks/**"]
-
+[build]
+  publish = "." # ensure modpacks/** is inside here at deploy time
 # Home → pnfx.dev
 [[redirects]]
   from = "/"
