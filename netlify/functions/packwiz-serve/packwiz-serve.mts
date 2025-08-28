@@ -79,7 +79,7 @@ export default async (request: Request, _context: Context) => {
     });
   } catch (err: any) {
     // Helpful logs during debugging; safe to keep or remove
-    console.error("serve error:", err?.code || err?.message || err);
+    console.log(err)
     if (err?.code === "ENOENT") return notFound("File not found");
     return new Response("Server error", { status: 500 });
   }
