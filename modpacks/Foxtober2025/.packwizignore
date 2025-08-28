@@ -1,0 +1,10 @@
+src
+node_modules
+.vscode
+.wrangler
+package.json
+package-lock.json
+README.md
+tsconfig.json
+worker-configuration.d.tsconfig
+wrangler.jsonc
