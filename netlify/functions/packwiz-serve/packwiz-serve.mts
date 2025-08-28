@@ -2,8 +2,25 @@ import { Context } from "@netlify/functions";
 import { readFile, readdir, stat as statFile } from "node:fs/promises";
 import path from "node:path";
 
-const PROJECT_ROOT = process.platform === "win32" ? process.cwd() : "../.."; // points to /var/task inside the Lambda
-
+const PROJECT_ROOT = process.cwd(); // points to /var/task inside the Lambda
+async function dumpDir(label: string, dir: string) {
+  try {
+    const entries = await readdir(dir, { withFileTypes: true });
+    console.log(`📂 ${label}: ${dir}`);
+    for (const e of entries) {
+      const full = path.join(dir, e.name);
+      let extra = "";
+      try {
+        const s = await statFile(full);
+        if (s.isDirectory()) extra = "<DIR>";
+        else extra = `${s.size} bytes`;
+      } catch {}
+      console.log("  ", e.name, extra);
+    }
+  } catch (err: any) {
+    console.log(`(could not read ${dir}):`, err.message);
+  }
+}
 function isSafeSlug(s: string) {
   return /^[a-z0-9-_]+$/.test(s);
 }
@@ -30,6 +47,10 @@ function notFound(msg = "Not found") {
 }
 
 export default async (request: Request, _context: Context) => {
+    await dumpDir("CWD", process.cwd());
+  await dumpDir("/var/task", "/var/task");
+  await dumpDir("/tmp", "/tmp");
+  await dumpDir("/", "/");
   try {
     const url = new URL(request.url);
 
