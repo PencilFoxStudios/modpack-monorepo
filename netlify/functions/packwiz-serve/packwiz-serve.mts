@@ -9,7 +9,7 @@ const MODPACKS = path.join(ROOT, "modpacks");
 function isText(name: string) { return /\.(toml|txt|json|sha256)$/i.test(name); }
 function mime(name: string) {
   const ext = path.extname(name).toLowerCase();
-  if (ext === ".toml" || ext === ".txt" || ext === ".sha256") return "text/plain; charset=utf-8";
+  if (ext === ".toml" || ext === ".txt" || ext === ".sha256" || ext === ".properties") return "text/plain; charset=utf-8";
   if (ext === ".json") return "application/json; charset=utf-8";
   if (ext === ".zip") return "application/zip";
   if (ext === ".jar") return "application/java-archive";
