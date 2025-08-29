@@ -26,7 +26,7 @@ metafile = true
 
 [[files]]
 file = "mods/cardinal-components-api.pw.toml"
-hash = "127f0a7311e4ecd77c0b96660e0ff873d78d253fffb68db6101eeb414de38bb1"
+hash = "0ed502ad7d53ca1936079cb7508b2e085909610ac51337fff2a3ce0fa6dcae28"
 metafile = true
 
 [[files]]
@@ -246,7 +246,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "f0ed08750785b8abf3a524de50422e24fd0f795f2f6db2e8a047fa4d47cd3f5b"
+hash = "acad2a12b636b0ca49683143e75db1e9c27ab8601f2f7aab720c962749e1935b"
 metafile = true
 
 [[files]]
