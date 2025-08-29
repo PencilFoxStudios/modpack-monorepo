@@ -160,6 +160,11 @@ hash = "d5faaf6d7e4be8bdf9b1b200edee175c2704ce13abad9d1951a4d4a45b432d4e"
 metafile = true
 
 [[files]]
+file = "mods/jei.pw.toml"
+hash = "a615fd6551b3d47e2d0e42e4ec30df6293bec90c135f1022113425ab8f23f7a6"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "85f465bc8bdcd62e413c8dd8e7b41a07b1f0adb4e02d15fb17abe0072128759b"
 metafile = true
