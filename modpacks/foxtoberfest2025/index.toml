@@ -24,6 +24,11 @@ hash = "416fecadb91091dcae990c30d981f7c5df3fb5dab187522b831e145c6e814a84"
 metafile = true
 
 [[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "17b40cfda4539840d350572bc5693a5984e862ecb58c2458f33822a074381bc4"
+metafile = true
+
+[[files]]
 file = "mods/cardinal-components-api.pw.toml"
 hash = "e1e2cc528cc5bca494254c26e849d6f8f9cb4a1305061ae9c86dcd3d48d4920b"
 metafile = true
@@ -69,6 +74,11 @@ hash = "0f07433e47a9e5d3d75c7671541bf522ccf94a213078c193691f2a78d12589b5"
 metafile = true
 
 [[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "9fb4d588bd578e2f16a9605ff6303872130b36ccb0fdfff98bd7274da94f91b9"
+metafile = true
+
+[[files]]
 file = "mods/figura.pw.toml"
 hash = "4ed0328f3789ce169f8a338f2889f47ebb3b2de44dc9a3fe5934ddf2f4141179"
 metafile = true
@@ -96,6 +106,11 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "cb82fe764a3b6234e511318c0c2bac54e2d8fef13c5b62df40964d6e2477b65e"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "0e5b10aefb078de8f531b588b6384cbfa585f8c6991b0b9b21dce1d642a6d840"
 metafile = true
 
 [[files]]
@@ -131,6 +146,11 @@ metafile = true
 [[files]]
 file = "mods/lodestonelib.pw.toml"
 hash = "256cab666206ea129b3fe2d298ee58492bbb7742ce901fcfd97bf4dc4abbb3e9"
+metafile = true
+
+[[files]]
+file = "mods/logical-zoom.pw.toml"
+hash = "b2b91a03cbe3cc5db03074817a2db5200e2a62dbf64024ab130f6cd96f4827a4"
 metafile = true
 
 [[files]]
@@ -189,8 +209,18 @@ hash = "b9f7063cab944e03a344e56a097c046b70d4252d00f576ffe47a96b436764233"
 metafile = true
 
 [[files]]
+file = "mods/modernfix.pw.toml"
+hash = "fa01d0d1b480410d3b46647b676849a7c266a9a9c0fdf444cbf80eb56a559d92"
+metafile = true
+
+[[files]]
 file = "mods/mru.pw.toml"
 hash = "230b1f5cd118accacf41f268e122bd420420d9e5248d43513090804739a832f3"
+metafile = true
+
+[[files]]
+file = "mods/noisium.pw.toml"
+hash = "dcc936d7bd32a86ce63fa3bf013864a4e2ed979cb126a915153ac70ce5e5671f"
 metafile = true
 
 [[files]]
