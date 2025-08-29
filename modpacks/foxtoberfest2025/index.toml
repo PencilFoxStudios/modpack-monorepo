@@ -240,6 +240,11 @@ hash = "bd27b80555c61403086f14bd1f42780ddeb060ecbcccd8e594255e7bd9b5a9ca"
 metafile = true
 
 [[files]]
+file = "mods/nyfs-spiders.pw.toml"
+hash = "0e4b66acb56a69961e0324eb902df9f490b8681b3d3f99ac3f96bb1b55ad1ba9"
+metafile = true
+
+[[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
 hash = "10ff63fee0a5224dc82344cf01809b9e4b909c8f6fbfc1d378f222797de49ce0"
 metafile = true
