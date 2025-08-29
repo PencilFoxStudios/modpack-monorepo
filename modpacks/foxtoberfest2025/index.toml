@@ -54,23 +54,8 @@ hash = "0381a70aa3e0234278892a6c19948d40c2345b58407bd757f19768ac07488f2a"
 metafile = true
 
 [[files]]
-file = "mods/create-let-the-adventure-begin.pw.toml"
-hash = "4aff8bbe936336183caa0cc616ce7b91010addc8140e4918071f4e2cb11fb20d"
-metafile = true
-
-[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "b3811242f9230b57ec349147921309a05e17b1d9866cb5197926495d8f8e9400"
-metafile = true
-
-[[files]]
-file = "mods/farmers-cutting-oh-the-biomes-weve-gone.pw.toml"
-hash = "e46a6d2c6eb6a99fb694389db99b456f05b304f1fded2d263348e5ba711cb59d"
-metafile = true
-
-[[files]]
-file = "mods/farmers-delight-refabricated.pw.toml"
-hash = "0f07433e47a9e5d3d75c7671541bf522ccf94a213078c193691f2a78d12589b5"
 metafile = true
 
 [[files]]
@@ -91,11 +76,6 @@ metafile = true
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
 hash = "6afc47cce5b7aa63fb1841b92e532a49f4b9a480e5f99ce92b1a220013b53c21"
-metafile = true
-
-[[files]]
-file = "mods/frights-delight.pw.toml"
-hash = "fd2ab361b8aa1a6fc860976d31ada445fe5403fdebf3e259588ff072f63f33b8"
 metafile = true
 
 [[files]]
