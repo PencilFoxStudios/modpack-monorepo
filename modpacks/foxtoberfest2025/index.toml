@@ -5,6 +5,10 @@ file = "config/fortnite.txt"
 hash = "8f434346648f6b96df89dda901c5176b10a6d83961dd3c1ac88b59b2dc327aa4"
 
 [[files]]
+file = "config/iris.properties"
+hash = "57bc6fa060d3df9acb2f6944260a6a59dd972dbb040445e2a2cac5140d889900"
+
+[[files]]
 file = "mods/addonslib.pw.toml"
 hash = "3d868e9103d74c33d1a02806dc8d361427968cb514d099017da92a6d0661e993"
 metafile = true
