@@ -1,0 +1,13 @@
+name = "Programmer Art+"
+filename = "Programmer-Art-Plus-v2.6.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/NGYridKF/versions/qlHidqba/Programmer-Art-Plus-v2.6.0.zip"
+hash-format = "sha512"
+hash = "6aaa4ed66f73f21b4529e71d81180f2ae4418651ba6d5a556112fae4a9a25ec0dc59f869511789ca1144716cd25e61d4ed8d3fb82e563cde3595664ddfe216eb"
+
+[update]
+[update.modrinth]
+mod-id = "NGYridKF"
+version = "qlHidqba"
