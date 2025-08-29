@@ -434,6 +434,10 @@ hash = "813acc3118730e2d29fc78ba0b4451a6333a7373503385da3b27de6e68601ec5"
 metafile = true
 
 [[files]]
+file = "servers.dat"
+hash = "8279347bcfa9214ed029fa826a67877d1a08007a216b4d3a1a8ff2b7690a481b"
+
+[[files]]
 file = "shaderpacks/cursed-fog.pw.toml"
 hash = "8aa04f2a3626804daacce6b08a9c229accbb3773a64ebc3e356c624a21da163f"
 metafile = true
