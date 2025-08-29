@@ -1,13 +1,13 @@
 name = "Lodestone"
-filename = "lodestone-1.20.1-1.6.2.3f-fabric.jar"
+filename = "lodestone-1.21.1-1.7.0.5-fabric.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/bN3xUWdo/versions/IRyjw8OM/lodestone-1.20.1-1.6.2.3f-fabric.jar"
+url = "https://cdn.modrinth.com/data/bN3xUWdo/versions/nvC6pFPc/lodestone-1.21.1-1.7.0.5-fabric.jar"
 hash-format = "sha512"
-hash = "55bd6e3bfe397a1ab32b8d8418192bab206f8d5ac94d1f957cb76697b4d977e8928bd6eefe1f0933420baa25f40653e48995e3b8cf273dda4d8c262c75385f5e"
+hash = "5ad36a1b75531571d2ea9bb4c5caa83346e36eb609fb2797df6a36e6adcfcf60bbce17dc8958a9b95e2731c59e958604df72ec6cea86165c4c80b67f30c490e4"
 
 [update]
 [update.modrinth]
 mod-id = "bN3xUWdo"
-version = "IRyjw8OM"
+version = "nvC6pFPc"

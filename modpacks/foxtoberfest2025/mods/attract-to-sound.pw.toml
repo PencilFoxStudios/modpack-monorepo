@@ -3,11 +3,11 @@ filename = "soundattract-4.0.9.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/zZluixcp/versions/pSmBNtg8/soundattract-4.0.9.jar"
+url = "https://cdn.modrinth.com/data/zZluixcp/versions/ghx72TaK/soundattract-4.0.9.jar"
 hash-format = "sha512"
-hash = "46ac855d0e3a7007fb293716b5cd95517b30ef1f7b7f3311845826e7e23e00213195093c0377fb10ec37d882d626ff49c900cdd3c0e5f2ad6517a9db54376937"
+hash = "361217081bdf03984f91f9d26719020032477bd814f788c0d3973f8f5302d6820c8e444840ff1f8377c004c923d0d7039a91b5aa3fb2c8a0254fe51f44157528"
 
 [update]
 [update.modrinth]
 mod-id = "zZluixcp"
-version = "pSmBNtg8"
+version = "ghx72TaK"

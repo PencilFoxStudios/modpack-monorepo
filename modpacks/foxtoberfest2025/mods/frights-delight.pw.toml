@@ -1,13 +1,13 @@
 name = "Fright's Delight"
-filename = "frightsdelight-fabric-1.20.1-1.3.4.jar"
+filename = "frightsdelight-fabric-1.21.1-1.3.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/awWvXlb2/versions/OBMmLGol/frightsdelight-fabric-1.20.1-1.3.4.jar"
+url = "https://cdn.modrinth.com/data/awWvXlb2/versions/enMo6Hss/frightsdelight-fabric-1.21.1-1.3.3.jar"
 hash-format = "sha512"
-hash = "c76023805531efce5172ba3929976bf5c3d9727207e3c73bc5220669c936e4dd8c8deb65bdb754be446a37199c1498205e79c2959da8142a292f202be07b2487"
+hash = "95151ccb69175362f9a6b5e9c3729b4215f3aca463df50bcd387995f2f2ec60548cab86214d37fc2a80a4d7d065524dbbbd7d435b51e1e41dcd39fedf6395626"
 
 [update]
 [update.modrinth]
 mod-id = "awWvXlb2"
-version = "OBMmLGol"
+version = "enMo6Hss"

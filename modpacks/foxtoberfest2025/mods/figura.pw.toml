@@ -1,13 +1,13 @@
 name = "Figura"
-filename = "figura-0.1.5+1.20.1-fabric-mc.jar"
+filename = "figura-0.1.5+1.21.1-fabric-mc.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/s9gIPDom/versions/r3bPBsmg/figura-0.1.5%2B1.20.1-fabric-mc.jar"
+url = "https://cdn.modrinth.com/data/s9gIPDom/versions/Hr11X9qW/figura-0.1.5%2B1.21.1-fabric-mc.jar"
 hash-format = "sha512"
-hash = "a842ae03f4477873934ad2a3bfeb50dcd75a668a91c072550c7db30dcd8825307bb74cfc26b3ae4a9ae933253a768eaed58ed7267221f2654ac2a93955a601ec"
+hash = "9dd46973d9764752847d8cff4287b14d681d4f1a4b4ea7001ddf49835db98995f8727e6c103f6a8eca7d35e136786077a9b323a36d65d6d76ed25eabb9d35fbf"
 
 [update]
 [update.modrinth]
 mod-id = "s9gIPDom"
-version = "r3bPBsmg"
+version = "Hr11X9qW"
