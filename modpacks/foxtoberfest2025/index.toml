@@ -6,7 +6,7 @@ hash = "8f434346648f6b96df89dda901c5176b10a6d83961dd3c1ac88b59b2dc327aa4"
 
 [[files]]
 file = "config/iris.properties"
-hash = "57bc6fa060d3df9acb2f6944260a6a59dd972dbb040445e2a2cac5140d889900"
+hash = "73eabd660d22e9e141705bab995677f9ba9a5a51016fb5b170821414d071747d"
 
 [[files]]
 file = "mods/addonslib.pw.toml"
