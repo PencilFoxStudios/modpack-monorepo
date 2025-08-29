@@ -6,7 +6,11 @@ hash = "8f434346648f6b96df89dda901c5176b10a6d83961dd3c1ac88b59b2dc327aa4"
 
 [[files]]
 file = "config/iris.properties"
-hash = "73eabd660d22e9e141705bab995677f9ba9a5a51016fb5b170821414d071747d"
+hash = "f8287b588bf07c1ce9037f929e862f64cf9212e359cab6b29d69eaabbc5258a1"
+
+[[files]]
+file = "config/sound_physics_remastered/soundphysics.properties"
+hash = "acf4320bbe56a2f2f47c2549c2357549ea4ea88402a693c8c2e96cc1da328e0e"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -234,6 +238,11 @@ hash = "eec54c8310038eaf8625ace2ab01e8ca6b1ce68b0e6a051835cf2faf324478c6"
 metafile = true
 
 [[files]]
+file = "mods/inventory-essentials.pw.toml"
+hash = "6c028236f98ca8981e7563636d397cb1a623259a5f3c5e62e7d88e88f5564551"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "e03fc0b0c151c5c072ac399d27b5c4268a093c41be73f3b1578d050bb49211f3"
 metafile = true
@@ -329,6 +338,11 @@ hash = "1d19237dc3a66d87a018bafb3f69e701bcba8ba1fdef71d9a5f17222c15a3120"
 metafile = true
 
 [[files]]
+file = "mods/mcdaycounter.pw.toml"
+hash = "c2fc16311c34a809d016e6e02d114241eedf73f21d426d3c1acf089dc6d69311"
+metafile = true
+
+[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "58b90c52266f89c339a35bd46378d8059d56949d5926c7b25da98719d0b38065"
 metafile = true
@@ -409,6 +423,11 @@ hash = "55a727cabdd9d6e84fb0232b49d0dfa207751002e7f1f63b959baa35e2f29868"
 metafile = true
 
 [[files]]
+file = "mods/rei.pw.toml"
+hash = "d663ed7529a79f9b5f9f9d7b3be61c0999b22daca0dc10482f51922b38409c66"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "16ea11cfb2e23bfabff2b885f9783dff0daf0454f68cbd36402ca30870e5bc1b"
 metafile = true
@@ -426,11 +445,6 @@ metafile = true
 [[files]]
 file = "mods/simple-copper-pipes.pw.toml"
 hash = "c3097538a3f01a80f5841c54678ec64f39d6879a4aafc5b15b46af42bfb7ff01"
-metafile = true
-
-[[files]]
-file = "mods/simple-day-display.pw.toml"
-hash = "cfd9e8e92a5605fd647b3ff2ac9c65d0adb68e009af0c20c5a32b1b9f178c00a"
 metafile = true
 
 [[files]]
@@ -559,6 +573,10 @@ hash = "48e188ec28b115b54e27b63e793fa6f80bde5a4768d98e77eb699c9cce0e76d9"
 metafile = true
 
 [[files]]
+file = "options.txt"
+hash = "1ef7a012d70d036bd4550e9b01e7d376c586c988519311cf9fd9f50458107704"
+
+[[files]]
 file = "resourcepacks/programmer-art-plus.pw.toml"
 hash = "f721c71b1ed1a5617f64922a39b2e2b48677ec8337c8e24261012e2c5d1b280d"
 metafile = true
@@ -576,6 +594,10 @@ metafile = true
 [[files]]
 file = "servers.dat"
 hash = "95ccf1fb02bfe9942d59ffc4d4ae04933e90cda71d3accad25e162c649babe82"
+
+[[files]]
+file = "shaderpacks/Spooklementary_1.1.zip.txt"
+hash = "ae12b4a8035834bb428c5ffd909ac32ff1540889c2925ac98382707b942c618b"
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
