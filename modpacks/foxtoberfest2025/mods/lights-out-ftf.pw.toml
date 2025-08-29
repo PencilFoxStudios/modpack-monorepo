@@ -1,0 +1,13 @@
+name = "Lights Out"
+filename = "Lights-Out-Forge-Fabric-1.21.2-1.21.4-v1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Xp6dkIqO/versions/AbLTMZv8/Lights-Out-Forge-Fabric-1.21.2-1.21.4-v1.1.jar"
+hash-format = "sha512"
+hash = "95f68999a7b69ff1839333a47e6c453f30f543b22d3fea7aa07291fd3dd82be302632e4c1a806fe5f4514e10ef677c0ccd1bd6b7ebe0b12f89b85c38f5411b13"
+
+[update]
+[update.modrinth]
+mod-id = "Xp6dkIqO"
+version = "AbLTMZv8"

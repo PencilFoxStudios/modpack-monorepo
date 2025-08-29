@@ -1,0 +1,13 @@
+name = "Lumenfuchs' Dummy"
+filename = "lumenfuchs-dummy-1.6.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pXWM4MKR/versions/33kBdKie/lumenfuchs-dummy-1.6.1.jar"
+hash-format = "sha512"
+hash = "6c1635010b9830030b24d6ca003144422e8d49ba292b0ee3f0ea58cce15e469db9d8f7f6cb59737d08c7465b12bea70f0e2846ef5a478ede85602bb0a2ae8651"
+
+[update]
+[update.modrinth]
+mod-id = "pXWM4MKR"
+version = "33kBdKie"

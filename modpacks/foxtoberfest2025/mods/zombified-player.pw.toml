@@ -1,0 +1,13 @@
+name = "Zombified Player - Kill Your Inner Zombie"
+filename = "ZombifiedPlayer-1.2.3-Fabric-mc1.21.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Hacodf0d/versions/ayDTZcP7/ZombifiedPlayer-1.2.3-Fabric-mc1.21.4.jar"
+hash-format = "sha512"
+hash = "73667339e17578d979424f2c6e86ee7cb5018e39192ab7c971d38da48ed51036ae7b204622d82647de653063a2771a9b480e7b83f5dd14b154227f3cf1195fd3"
+
+[update]
+[update.modrinth]
+mod-id = "Hacodf0d"
+version = "ayDTZcP7"

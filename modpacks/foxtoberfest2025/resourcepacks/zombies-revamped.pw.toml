@@ -1,0 +1,13 @@
+name = "Zombies Revamped"
+filename = "Zombies Revamped.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/viqzBN5W/versions/jisueNBb/Zombies%20Revamped.zip"
+hash-format = "sha512"
+hash = "b877a67eaad61e553b45d76be617ff04fa90d57f2ba1b25037542580cfda68dea7e8378b2e53ebe7e4baf533c07d15c89d47e17e563fdaec660534365fc7c3b0"
+
+[update]
+[update.modrinth]
+mod-id = "viqzBN5W"
+version = "jisueNBb"

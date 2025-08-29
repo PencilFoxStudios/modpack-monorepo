@@ -1,13 +1,13 @@
 name = "YUNG's Menu Tweaks"
-filename = "YungsMenuTweaks-1.21.1-Fabric-2.1.2.jar"
+filename = "YungsMenuTweaks-1.21.4-Fabric-2.4.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/Hcy2DFKF/versions/ROfVrQnL/YungsMenuTweaks-1.21.1-Fabric-2.1.2.jar"
+url = "https://cdn.modrinth.com/data/Hcy2DFKF/versions/LJ3ujWWA/YungsMenuTweaks-1.21.4-Fabric-2.4.0.jar"
 hash-format = "sha512"
-hash = "c05bfbd328d4f152b87be212fc7f0c9c6aba92de93eb6c410424875d31764e15bc803d6b6b7ff13b45235a3162574d6f6aa95c451aab1038d706964fc70e18e2"
+hash = "9d29392b84299159824ab5360620b45c145ad6a72262c0f1cb0863ce3555c051df1f3a6a61980c5bbe57ef19dcebb1a819be864bd37aba5c71b85e8bd5e2943d"
 
 [update]
 [update.modrinth]
 mod-id = "Hcy2DFKF"
-version = "ROfVrQnL"
+version = "LJ3ujWWA"

@@ -1,0 +1,13 @@
+name = "Diagonal Windows"
+filename = "DiagonalWindows-v21.4.0-1.21.4-Fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oOi0CKes/versions/h1KHbeVR/DiagonalWindows-v21.4.0-1.21.4-Fabric.jar"
+hash-format = "sha512"
+hash = "cd6bae27c8dea56cb0979313bba1d4a356cb6f716db8a7700095feee9755e744d9f8d4a2cef9737250da448246da080e77184f7956d10653887589aad4653a1a"
+
+[update]
+[update.modrinth]
+mod-id = "oOi0CKes"
+version = "h1KHbeVR"

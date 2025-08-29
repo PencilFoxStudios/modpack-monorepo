@@ -1,0 +1,13 @@
+name = "qrafty's Halloween Villages"
+filename = "qraftys-halloween-villages-3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NW6TKDob/versions/3bziYWWR/qraftys-halloween-villages-3.1.jar"
+hash-format = "sha512"
+hash = "9e66dbb7dfb90969ecc3b9852ba0dc64b11769d2e80807bf8f7850b7c210791bcc8ae7e935533103bf0641f874c60a85f47a21fef234352d385a3f39cb87ce24"
+
+[update]
+[update.modrinth]
+mod-id = "NW6TKDob"
+version = "3bziYWWR"

@@ -1,13 +1,13 @@
 name = "Macaw's Oh The Biomes You'll Go / We've Gone"
-filename = "mcwbyg-fabric-1.21.1-1.2.1.jar"
+filename = "mcwbyg-fabric-1.21.4-1.2.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/s4B19O5h/versions/yEIAaaAA/mcwbyg-fabric-1.21.1-1.2.1.jar"
+url = "https://cdn.modrinth.com/data/s4B19O5h/versions/i01SaGG9/mcwbyg-fabric-1.21.4-1.2.2.jar"
 hash-format = "sha512"
-hash = "942bbb8bbc3b49490373ebad3f45814c8a26e6a28493f5878da027d9433089a8c521be901247eb0ab87f5592732429ccaab334da182eb865ce9242efd8862c67"
+hash = "797321d5a6f17a8b971f934a7eaa6ae5fd716dd0a086c75c399b1ec9391dffe45e317f68436803ba01b9161e02ff891021a09c2cc617c0ee2621f28fd8b1e534"
 
 [update]
 [update.modrinth]
 mod-id = "s4B19O5h"
-version = "yEIAaaAA"
+version = "i01SaGG9"

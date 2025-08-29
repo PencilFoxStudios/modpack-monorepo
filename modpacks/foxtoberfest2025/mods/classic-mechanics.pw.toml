@@ -1,0 +1,13 @@
+name = "Classic Mechanics"
+filename = "classic-mechanics-1.20.4_04.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WrwwFARZ/versions/DLnBN6Io/classic-mechanics-1.20.4_04.jar"
+hash-format = "sha512"
+hash = "6f1d30ee37590dc7c9195d52995e4facf572792dcebd3a7524083eed1e1ec493f0827108be2eb444941d2e3a424075c09c5041a0279195654503d603e95133cb"
+
+[update]
+[update.modrinth]
+mod-id = "WrwwFARZ"
+version = "DLnBN6Io"

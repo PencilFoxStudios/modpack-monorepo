@@ -1,0 +1,13 @@
+name = "Simple Day Display"
+filename = "simple-day-display-61.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/suiPCM19/versions/Ptwr4PdZ/simple-day-display-61.jar"
+hash-format = "sha512"
+hash = "d4773e89f286a11f62e6254da3f3698f80498a05860f98130b6aa94e0bfe9d42ed49118313515262888c76244ccbb2b34019a78f186afa335b658258c8689749"
+
+[update]
+[update.modrinth]
+mod-id = "suiPCM19"
+version = "Ptwr4PdZ"

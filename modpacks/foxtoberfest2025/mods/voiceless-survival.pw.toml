@@ -1,0 +1,13 @@
+name = "Voiceless Survival"
+filename = "Voiceless Survival-fabric-1.21.4-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JJ3q7W2X/versions/kS0UM7ZD/Voiceless%20Survival-fabric-1.21.4-1.0.1.jar"
+hash-format = "sha512"
+hash = "49a08f88da5519f27a4de515380a813be1a6b6494b88e769f3f849c9395f4661d4dbc8bea239634921dce271d4121c5509139a902857aab31d9072f0cde4dcb8"
+
+[update]
+[update.modrinth]
+mod-id = "JJ3q7W2X"
+version = "kS0UM7ZD"
