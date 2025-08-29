@@ -260,11 +260,6 @@ hash = "a1eff7b33a54586b6989c7bfd89992f9d315f1c656b7596649d9af7017c6af7b"
 metafile = true
 
 [[files]]
-file = "mods/seven-days-to-survive.pw.toml"
-hash = "7c0ee0acf75fee59a35d5b9bf4cc865fb480f060059ce2fe337b4ca99fbd9b0a"
-metafile = true
-
-[[files]]
 file = "mods/simple-menu.pw.toml"
 hash = "254034d504362bf48c6267e60b83b227c4a47a42827f592682939d9879939451"
 metafile = true
