@@ -1,12 +1,12 @@
 name = "Foxtoberfest"
 author = "Pencil Fox Studios"
-version = "1.0.9"
+version = "1.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "cfaf439bcd476a58fb96a99016fe74d3d71b78ce6727ad0a080ac2a14b89be44"
+hash = "cb84a5f495f7a7d547b1b5069a2b2e66d844d411fb7d4e716a1539ddea4e3107"
 
 [versions]
 fabric = "0.17.2"
