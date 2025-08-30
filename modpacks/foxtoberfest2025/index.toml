@@ -14,7 +14,7 @@ hash = "acf4320bbe56a2f2f47c2549c2357549ea4ea88402a693c8c2e96cc1da328e0e"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "65e164d6e36b59db5fa8cb805721a091ce04f349a22b33b735975e3e5d00fc1a"
+hash = "2bbe0722a8f3107c93c3c5f312811518c50b6c86f1136601ec468003c6aa699c"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -662,7 +662,7 @@ hash = "95ccf1fb02bfe9942d59ffc4d4ae04933e90cda71d3accad25e162c649babe82"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5.txt"
-hash = "736b8ccb25f09b6a3bdad04b3ac0d582ff0dcba2a80a922e86c7bc192f3c3b75"
+hash = "766bdcddae6f107380ca0b1047fb93344f638b3db2dbacd15c28f7fddb8ec619"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5/ComplementaryLicense.txt"
