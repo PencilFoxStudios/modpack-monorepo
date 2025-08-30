@@ -12,7 +12,7 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
 prioritizeChunkUpdates:0
-fullscreen:false
+fullscreen:true
 gamma:1.0
 graphicsMode:1
 guiScale:0
@@ -23,7 +23,7 @@ narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"true"
-renderDistance:12
+renderDistance:8
 simulationDistance:12
 screenEffectScale:1.0
 soundDevice:""
@@ -52,7 +52,7 @@ highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
 resourcePacks:["vanilla","fabric","programmer_art","lambdabettergrass:default","file/Programmer-Art-Plus-v2.6.0.zip","file/Zombies Revamped.zip"]
-incompatibleResourcePacks:["balm","controlling","energizedpower","faewulf_lib","jade","mcwbridges","mcwfences","mcwlights","mcwroofs","mcwstairs","mcwtrpdoors","mcwwindows","modernfix","mr_gamingbarns_guns","mr_lumenfuchs_dummy","mru","piggyback","searchables","spookydoors","supermartijn642corelib","terrablender","tesseract","toms_storage","yet_another_config_lib_v3","file/Zombies Revamped.zip"]
+incompatibleResourcePacks:["appleskin","balm","controlling","energizedpower","faewulf_lib","inventoryessentials","jade","mcwbridges","mcwfences","mcwlights","mcwroofs","mcwstairs","mcwtrpdoors","mcwwindows","modernfix","mr_gamingbarns_guns","mr_lumenfuchs_dummy","mru","piggyback","searchables","spookydoors","supermartijn642corelib","terrablender","tesseract","toms_storage","yet_another_config_lib_v3","file/Zombies Revamped.zip"]
 lastServer:PIncilfox.local
 lang:en_us
 chatVisibility:0
@@ -127,6 +127,7 @@ key_key.hotbar.9:key.keyboard.9
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_chunksfadein.keybinds.toggleMod:key.keyboard.unknown
+key_key.day-counter.open_settings:key.keyboard.unknown
 key_key.energizedpower.teleporter.use:key.keyboard.j
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.entityculling.toggleBoxes:key.keyboard.unknown
@@ -166,7 +167,7 @@ key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
-soundCategory_master:0.17615894039735094
+soundCategory_master:0.31125827814569534
 soundCategory_music:0.06478873239436622
 soundCategory_record:1.0
 soundCategory_weather:1.0

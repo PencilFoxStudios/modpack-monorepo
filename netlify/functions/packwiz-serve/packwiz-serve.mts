@@ -37,7 +37,13 @@ export default async (req: Request, _ctx: Context) => {
   const st = await statFile(abs).catch(() => null);
   if (!st || !st.isFile()) return new Response("Not found", { status: 404 });
 
-  const name = path.basename(abs);
+  let name = path.basename(abs);
+
+  // If the file is instance.zip, rename it in the response to <slug>.zip
+  if (name.toLowerCase() === "instance.zip") {
+    name = `${slug}.zip`;
+  }
+
   const data = await readFile(abs);
   const body: BodyInit = isText(name) ? data.toString("utf8") : new Uint8Array(data);
 
@@ -46,6 +52,7 @@ export default async (req: Request, _ctx: Context) => {
     headers: {
       "Content-Type": mime(name),
       "Cache-Control": "public, max-age=300, s-maxage=300",
+      "Content-Disposition": `attachment; filename="${name}"`,
     },
   });
 };
