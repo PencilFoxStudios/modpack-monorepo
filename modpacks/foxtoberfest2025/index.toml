@@ -27,6 +27,11 @@ hash = "89bd8d2e1df6f5bc6c7bd67009327a42ff9b392db293475a8aa4b432960d3395"
 metafile = true
 
 [[files]]
+file = "mods/advanced-reborn.pw.toml"
+hash = "148ffdab953a0aa553b81a3b028d63e0759ec610ddd684700a8b1dfa8ce63a5f"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "417e4f42790407e6fb4dfcb03cd4abcdf3aa00f4dcef3f3a2edec1a3e1a9a3ef"
 metafile = true
@@ -188,7 +193,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "b2f2ef63febe17f277635827ca474e1aeae321e8a82bef78942116f95d00250a"
+hash = "794ea065ee10e98aa4260f84b13bf214f3be822bd90d93452b8b1a0ad52e1d63"
 metafile = true
 
 [[files]]
@@ -252,6 +257,16 @@ hash = "a2c985cf1b1774fe4e06a766c147bfa3e68e8cb16ce960c3f9c8a125de4777cf"
 metafile = true
 
 [[files]]
+file = "mods/growableores-extension.pw.toml"
+hash = "172707523e60266623dc644e41c146c7483b84233c3cd6efab09b5bb10e2b162"
+metafile = true
+
+[[files]]
+file = "mods/growableores.pw.toml"
+hash = "df4639cc4a4c46bbf61743aa5b5b82bd9939b1be70d1a9408184fc6505de2cc6"
+metafile = true
+
+[[files]]
 file = "mods/hostile-mobs-improve-over-time.pw.toml"
 hash = "12164facc57eae62f75e0a5d4f9257c83dbe4f76c8cdb64fae29ac3ecda50c3f"
 metafile = true
@@ -259,6 +274,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "eec54c8310038eaf8625ace2ab01e8ca6b1ce68b0e6a051835cf2faf324478c6"
+metafile = true
+
+[[files]]
+file = "mods/improved-stations.pw.toml"
+hash = "977fb33d6f93d771b20a761635be697ff3c3e9740d4d72087b1b4d8d6eb65904"
 metafile = true
 
 [[files]]
@@ -374,6 +394,11 @@ metafile = true
 [[files]]
 file = "mods/mcdaycounter.pw.toml"
 hash = "c2fc16311c34a809d016e6e02d114241eedf73f21d426d3c1acf089dc6d69311"
+metafile = true
+
+[[files]]
+file = "mods/mcpitanlibarch.pw.toml"
+hash = "82c5fe596e4535c2de88591bb8961e84eb4638161deb8957a168f6b15dad36e0"
 metafile = true
 
 [[files]]
@@ -549,6 +574,11 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "e2cc957c5a76f9615263ac1fc2ff523779200224a2024d6700bc32438954631a"
+metafile = true
+
+[[files]]
+file = "mods/techreborn.pw.toml"
+hash = "d93989ba45af1e26cbd08da2512e7be0a1a35be9bb80c38ed3bf659ef54b711f"
 metafile = true
 
 [[files]]

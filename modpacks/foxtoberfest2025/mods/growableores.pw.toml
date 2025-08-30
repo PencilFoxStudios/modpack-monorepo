@@ -1,0 +1,13 @@
+name = "GrowableOres"
+filename = "GrowableOres-2.11.0-1.21.4-Fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XGvP5TBn/versions/6SUexwUf/GrowableOres-2.11.0-1.21.4-Fabric.jar"
+hash-format = "sha512"
+hash = "00179d009e67a90b4f96c32ebf37dd7ad308082d6c3245dbd7c6ed7cf0eadd2a9fb2b937fafa62b92c92df05b0593890f99ab66482e8319f822e42c6f226928a"
+
+[update]
+[update.modrinth]
+mod-id = "XGvP5TBn"
+version = "6SUexwUf"
