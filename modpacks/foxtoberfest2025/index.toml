@@ -168,6 +168,11 @@ hash = "81027ef87a38a28907d78c14492be6fdde0e9c1a93a1651b0bedf323b392d639"
 metafile = true
 
 [[files]]
+file = "mods/euphoria-patches.pw.toml"
+hash = "9f9861528accd9ee8830611cea5c64a266bf09e3146f8ff31bcafc3db26497b0"
+metafile = true
+
+[[files]]
 file = "mods/explorify.pw.toml"
 hash = "a0b3f914a386d4236744bc749156bb7eca1014179a50e340af1ea4741198782f"
 metafile = true
@@ -607,6 +612,11 @@ hash = "ae12b4a8035834bb428c5ffd909ac32ff1540889c2925ac98382707b942c618b"
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
 hash = "d30923bf5cfb4988a372508cb461d8077609d79a38d0b170785804c7ad15f16e"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "9025311f42fe8ab581987962c9c6b3ec5a50f5afc803e9d867dc580cb0b66190"
 metafile = true
 
 [[files]]
