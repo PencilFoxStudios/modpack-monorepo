@@ -14,7 +14,7 @@ hash = "acf4320bbe56a2f2f47c2549c2357549ea4ea88402a693c8c2e96cc1da328e0e"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "2bbe0722a8f3107c93c3c5f312811518c50b6c86f1136601ec468003c6aa699c"
+hash = "00a6647712b2e3fb435eb2d994505aff0d77a19bb6817180087fdd304e30f0d8"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -472,6 +472,11 @@ hash = "16ea11cfb2e23bfabff2b885f9783dff0daf0454f68cbd36402ca30870e5bc1b"
 metafile = true
 
 [[files]]
+file = "mods/serene-seasons.pw.toml"
+hash = "9a52c0abc1a0ea0162a0c6700ed0d89d0dc5b073c80b09339cfb602d16e2686e"
+metafile = true
+
+[[files]]
 file = "mods/server-replay.pw.toml"
 hash = "6e18a53503ad2da3640bfbf59f2d9e02cbed8aef303443708190500d57793dd8"
 metafile = true
@@ -662,7 +667,7 @@ hash = "95ccf1fb02bfe9942d59ffc4d4ae04933e90cda71d3accad25e162c649babe82"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5.txt"
-hash = "766bdcddae6f107380ca0b1047fb93344f638b3db2dbacd15c28f7fddb8ec619"
+hash = "6a046ea7df964db15268a2451479141e1753ba38c2a8580f946aa5626bca206f"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5/ComplementaryLicense.txt"
