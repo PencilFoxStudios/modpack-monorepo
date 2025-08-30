@@ -297,7 +297,7 @@ void main() {
 
     #if defined SPOOKY && defined EYES
         // dont do that shit either. stop it.
-        
+
         // vec3 eyes1 = vec3(0.0);
         // vec3 eyes2 = vec3(0.0);
         // float sideRandom = hash13(mod(floor(worldPos + atMidBlock / 64) + frameTimeCounter * 0.00001, vec3(100)));
@@ -549,7 +549,7 @@ void main() {
         vec2 flickerEyeNoise = texture2D(noisetex, vec2(frameTimeCounter * 0.025 + hash13(mod(floor(worldPos + atMidBlock / 64) + frameTimeCounter * 0.000001, vec3(100))))).rb;
         if (length(playerPos) > 8.0) {
             vec3 eyesColor = mix(vec3(1.0), vec3(3.0, 0.0, 0.0), vec3(step(1.0 - EYE_RED_PROBABILITY * mix(1.0, 2.0, getBloodMoon(moonPhase, sunVisibility)), hash13(mod(floor(worldPos + atMidBlock / 64) + frameTimeCounter * 0.0000002, vec3(500)))))); // Make Red eyes appear rarely, 7% chance
-            color.rgb += spookyEyes * 3.0 * skyLightCheck * min1(max(flickerEyeNoise.r, flickerEyeNoise.g)) * clamp((1.0 - 1.15 * lmCoord.x) * 10.0, 0.0, 1.0) * eyesColor;
+            color.rgb += 3.0 * skyLightCheck * min1(max(flickerEyeNoise.r, flickerEyeNoise.g)) * clamp((1.0 - 1.15 * lmCoord.x) * 10.0, 0.0, 1.0) * eyesColor;
         }
     #endif
 

@@ -1648,7 +1648,7 @@ hash = "d7dccc13f7b673cc25b674876ae2efff620a362a6cb391ba562aaf0f236a211c"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5/shaders/program/gbuffers_terrain.glsl"
-hash = "d8e1e32c22495202511d44fcd2f6f3fd873d846d7ad317a03bcc105db544da26"
+hash = "3e20a5314653ec83f4c23c211e7b41ae35b7c5b928fd944b9569802ca24251d7"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5/shaders/program/gbuffers_textured.glsl"
