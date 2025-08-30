@@ -293,6 +293,11 @@ hash = "8f42e792080ba1e1ee3548a65812cfc8af4919e0991ff26fd08b9950d6614002"
 metafile = true
 
 [[files]]
+file = "mods/lootr.pw.toml"
+hash = "c41335d69ae07c59e6d046aadedc6a02cab2d8714ea2084dbdfd0623af7aa028"
+metafile = true
+
+[[files]]
 file = "mods/lumenfuchs-dummy.pw.toml"
 hash = "ae28df55368ef6ebdafbaebb01c1a5adfb40d9afae29d21676137f5177d5bbb2"
 metafile = true
