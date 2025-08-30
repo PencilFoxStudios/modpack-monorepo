@@ -463,6 +463,11 @@ hash = "7752d2c8b88516a7d1b2b2deb9cba65f11cea226eb39960b26109e6089ffc659"
 metafile = true
 
 [[files]]
+file = "mods/sit-anywhere!.pw.toml"
+hash = "787dbf37c2102b5bac78e4cc8a38f11bc63f65c5abbb54fd0eecb007ffb5d4fb"
+metafile = true
+
+[[files]]
 file = "mods/snow-under-trees-remastered.pw.toml"
 hash = "82bfd89ec4a0468023b4fcadbdb407fb9f991f80d9776e89d25a60e44fae2e7d"
 metafile = true
