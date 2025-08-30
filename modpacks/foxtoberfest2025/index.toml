@@ -6,7 +6,7 @@ hash = "8f434346648f6b96df89dda901c5176b10a6d83961dd3c1ac88b59b2dc327aa4"
 
 [[files]]
 file = "config/iris.properties"
-hash = "f8287b588bf07c1ce9037f929e862f64cf9212e359cab6b29d69eaabbc5258a1"
+hash = "6dcb7a5bc88cfeb43e722cda437392bfa637347bc23be0a97bc22cc787d22749"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
