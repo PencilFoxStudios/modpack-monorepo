@@ -277,11 +277,6 @@ hash = "eec54c8310038eaf8625ace2ab01e8ca6b1ce68b0e6a051835cf2faf324478c6"
 metafile = true
 
 [[files]]
-file = "mods/improved-stations.pw.toml"
-hash = "977fb33d6f93d771b20a761635be697ff3c3e9740d4d72087b1b4d8d6eb65904"
-metafile = true
-
-[[files]]
 file = "mods/inventory-essentials.pw.toml"
 hash = "6c028236f98ca8981e7563636d397cb1a623259a5f3c5e62e7d88e88f5564551"
 metafile = true
