@@ -578,10 +578,6 @@ hash = "48e188ec28b115b54e27b63e793fa6f80bde5a4768d98e77eb699c9cce0e76d9"
 metafile = true
 
 [[files]]
-file = "options.txt"
-hash = "73df6e8da72c376a6ebc0a300674a3023c8589190cd28fcf7ee68761fb29f9e0"
-
-[[files]]
 file = "resourcepacks/programmer-art-plus.pw.toml"
 hash = "f721c71b1ed1a5617f64922a39b2e2b48677ec8337c8e24261012e2c5d1b280d"
 metafile = true
@@ -602,7 +598,7 @@ hash = "95ccf1fb02bfe9942d59ffc4d4ae04933e90cda71d3accad25e162c649babe82"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5.txt"
-hash = "d3c0f70cbb61e1a74b68bfb7f8c0ed43740e7a00f0e082128d3c19d848964933"
+hash = "4d5a42cb97e090b05eff426a32e560c896111d6613b42fe7412aef7657e6b1fa"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5/ComplementaryLicense.txt"
