@@ -14,7 +14,7 @@ hash = "acf4320bbe56a2f2f47c2549c2357549ea4ea88402a693c8c2e96cc1da328e0e"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "00a6647712b2e3fb435eb2d994505aff0d77a19bb6817180087fdd304e30f0d8"
+hash = "2ae17d59aa8b33d29ff109469edb855d2c529b6718a5f52dfdd0b1c4356baab6"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -647,8 +647,8 @@ hash = "48e188ec28b115b54e27b63e793fa6f80bde5a4768d98e77eb699c9cce0e76d9"
 metafile = true
 
 [[files]]
-file = "resourcepacks/golden-days.pw.toml"
-hash = "62548c1e52d6629ce3e73e373e3fcc157c76a24b208d44f8536e4eff1ff3a33b"
+file = "resourcepacks/faithful-64x.pw.toml"
+hash = "ea8b271b5f84303f9a3ca797a429cfa5fb04eee1e5a21afe60baa75a5eed5b15"
 metafile = true
 
 [[files]]

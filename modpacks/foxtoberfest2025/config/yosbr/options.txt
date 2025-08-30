@@ -51,7 +51,7 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","file/golden-days-base-1.21.x-1.12.3.zip"]
+resourcePacks:["vanilla","fabric"]
 incompatibleResourcePacks:["appleskin","balm","controlling","energizedpower","faewulf_lib","inventoryessentials","jade","mcwbridges","mcwfences","mcwlights","mcwroofs","mcwstairs","mcwtrpdoors","mcwwindows","modernfix","mr_gamingbarns_guns","mr_lumenfuchs_dummy","mr_nice_keepinventory","mru","piggyback","searchables","spookydoors","supermartijn642corelib","terrablender","tesseract","toms_storage","toughasnails","yet_another_config_lib_v3"]
 lastServer:
 lang:en_us
