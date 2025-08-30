@@ -88,6 +88,11 @@ hash = "2a11fd56b0d0a399cf5a7e9a206fff25dbf9589f0255994178bd9c0361e74344"
 metafile = true
 
 [[files]]
+file = "mods/clicksigns.pw.toml"
+hash = "ed7c08c6a865eb2c29a4bd54b5819debf31d7ed24d2193da3916dff0e3d3f456"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "df15648dd4d4e27dd0c45ab4e78277c45886b77a698b129f4ce2d2bc337f7044"
 metafile = true
@@ -228,6 +233,11 @@ hash = "6ab357905a17c3cdf47f7e6b9c1d4a2e656e8821a3241a5e3f7dde2a6fb08161"
 metafile = true
 
 [[files]]
+file = "mods/gamingbarns-guns.pw.toml"
+hash = "18ecfa86bf1f20555e5972f8c34a9a3de4026727c2c419a5019a258d1c13cd85"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "6ccfb0510224ba02a258808eea694bee5d976a998b76608e5648b17fa8bf84f0"
 metafile = true
@@ -255,6 +265,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "114968e70a3e2c2f7a33db6ed305256585353361a28210a0b872df52fc5542aa"
+metafile = true
+
+[[files]]
+file = "mods/jsonite.pw.toml"
+hash = "9e06146bcfc7cb5761e09119d00aaaa1e1245a5198886be2b978ea0633b2d556"
 metafile = true
 
 [[files]]
@@ -503,6 +518,11 @@ hash = "88044c979083cf3f222d277515f4d4c3b18836fc7e2692d5aec71fcca6379b49"
 metafile = true
 
 [[files]]
+file = "mods/storagedrawers.pw.toml"
+hash = "03f89c3aa6d2be097c8cd374f36a165711bdad997be4308cf019d29d2f5b8016"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "8e009ac87710fbd8f5990285d36ab2b4755e932664ca1bcb9cdfac116d6e3b6d"
 metafile = true
@@ -535,6 +555,11 @@ metafile = true
 [[files]]
 file = "mods/travelersbackpack.pw.toml"
 hash = "fe43d0f2986dad2eec389a81b56ebc7a84ac6c1ec3533d28cb18ecddb07b5dd5"
+metafile = true
+
+[[files]]
+file = "mods/ultimate-furnace.pw.toml"
+hash = "48b357bac55f8f9549e93dba803dc2c6636469beb494cb8ead7969bdb67e6d7a"
 metafile = true
 
 [[files]]
@@ -585,11 +610,6 @@ metafile = true
 [[files]]
 file = "mods/zombified-player.pw.toml"
 hash = "48e188ec28b115b54e27b63e793fa6f80bde5a4768d98e77eb699c9cce0e76d9"
-metafile = true
-
-[[files]]
-file = "resourcepacks/programmer-art-plus.pw.toml"
-hash = "f721c71b1ed1a5617f64922a39b2e2b48677ec8337c8e24261012e2c5d1b280d"
 metafile = true
 
 [[files]]
@@ -1308,7 +1328,7 @@ hash = "597477d66777dc7393522812d98781b834065deac168b617e32342bc640d3f2c"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5/shaders/lib/shaderSettings/final.glsl"
-hash = "025a895c9c48f85da7aaa8152e5c52ac11ad6990e33270dc22dea6d344fb4d42"
+hash = "f5376b8f1b1a69d9a963dbc25cdd3adbc99273dc87ca7eb48d1288b415714895"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5/shaders/lib/shaderSettings/interactiveFoliage.glsl"
@@ -1576,7 +1596,7 @@ hash = "33be5aa50f7df32b693b8e3f8e0f027fd701fb99a4d415c599fa1c3c8f4494bd"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5/shaders/program/final.glsl"
-hash = "4daa8c7d5800f13701ae75f0e473e45e4d9514032176905924de1f24ce70f5f2"
+hash = "404c401759e414bbb24682214df5ce92084486b0339229d281197f89123520a7"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5/shaders/program/gbuffers_armor_glint.glsl"
@@ -1628,7 +1648,7 @@ hash = "d7dccc13f7b673cc25b674876ae2efff620a362a6cb391ba562aaf0f236a211c"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5/shaders/program/gbuffers_terrain.glsl"
-hash = "18fe398ac9a7e42cec11624710903597189c83a9b21b0c6ce950a3c1ab564b71"
+hash = "d8e1e32c22495202511d44fcd2f6f3fd873d846d7ad317a03bcc105db544da26"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5/shaders/program/gbuffers_textured.glsl"

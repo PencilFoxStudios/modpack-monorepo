@@ -296,27 +296,29 @@ void main() {
     }
 
     #if defined SPOOKY && defined EYES
-        vec3 eyes1 = vec3(0.0);
-        vec3 eyes2 = vec3(0.0);
-        float sideRandom = hash13(mod(floor(worldPos + atMidBlock / 64) + frameTimeCounter * 0.00001, vec3(100)));
-        vec3 blockUVEyes = blockUV;
-        if (step(0.5, sideRandom) > 0.0) { // Randomly make eyes visible only on either the x or z axis
-            blockUVEyes.x = 0.0;
-        } else {
-            blockUVEyes.z = 0.0;
-        }
-        float spookyEyesFrequency = EYE_FREQUENCY;
-        float spookyEyesSpeed = EYE_SPEED;
+        // dont do that shit either. stop it.
+        
+        // vec3 eyes1 = vec3(0.0);
+        // vec3 eyes2 = vec3(0.0);
+        // float sideRandom = hash13(mod(floor(worldPos + atMidBlock / 64) + frameTimeCounter * 0.00001, vec3(100)));
+        // vec3 blockUVEyes = blockUV;
+        // if (step(0.5, sideRandom) > 0.0) { // Randomly make eyes visible only on either the x or z axis
+        //     blockUVEyes.x = 0.0;
+        // } else {
+        //     blockUVEyes.z = 0.0;
+        // }
+        // float spookyEyesFrequency = EYE_FREQUENCY;
+        // float spookyEyesSpeed = EYE_SPEED;
 
-        float randomEyesTime = 24000 * hash1(worldDay * 3); // Effect happens randomly throughout the day
-        int moreEyesEffect = (int(hash1(worldDay / 2)) % (2 * 24000)) + int(randomEyesTime);
-        if (worldTime > moreEyesEffect && worldTime < moreEyesEffect + 30) { // 30 in ticks - 1.5s, how long the effect will be on
-            spookyEyesFrequency = 20.0; // make eyes appear everywhere
-        }
-        if ((blockUVEyes.x > 0.15 && blockUVEyes.x < 0.43 || blockUVEyes.x < 0.85 && blockUVEyes.x > 0.57 || blockUVEyes.z > 0.15 && blockUVEyes.z < 0.43 || blockUVEyes.z < 0.85 && blockUVEyes.z > 0.57) && blockUVEyes.y > 0.42 && blockUVEyes.y < 0.58 && abs(clamp01(dot(normal, upVec))) < 0.99) eyes1 = vec3(1.0); // Eye Shape 1 Horizontal
-        if ((blockUVEyes.x > 0.65 && blockUVEyes.x < 0.8 || blockUVEyes.x < 0.35 && blockUVEyes.x > 0.2 || blockUVEyes.z > 0.65 && blockUVEyes.z < 0.8 || blockUVEyes.z < 0.35 && blockUVEyes.z > 0.2) && blockUVEyes.y > 0.3 && blockUVEyes.y < 0.7 && abs(clamp01(dot(normal, upVec))) < 0.99) eyes2 = vec3(1.0); // Eye Shape 2 Vertical
-        vec3 spookyEyes = mix(eyes1, eyes2, step(0.75, hash13(mod(floor(worldPos + atMidBlock / 64) + frameTimeCounter * 0.00005, vec3(100))))); // have either eye shape 1 or 2 randomly, the horizontal ones have a 0.75 to 0.25 higher probability of appearing
-        spookyEyes *= vec3(step(1.0075 - spookyEyesFrequency * 0.01, hash13(mod(floor(worldPos + atMidBlock / 64) + frameTimeCounter * 0.0000005 * spookyEyesSpeed, vec3(100))))); // Make them appear randomly and much less
+        // float randomEyesTime = 24000 * hash1(worldDay * 3); // Effect happens randomly throughout the day
+        // int moreEyesEffect = (int(hash1(worldDay / 2)) % (2 * 24000)) + int(randomEyesTime);
+        // if (worldTime > moreEyesEffect && worldTime < moreEyesEffect + 30) { // 30 in ticks - 1.5s, how long the effect will be on
+        //     spookyEyesFrequency = 20.0; // make eyes appear everywhere
+        // }
+        // if ((blockUVEyes.x > 0.15 && blockUVEyes.x < 0.43 || blockUVEyes.x < 0.85 && blockUVEyes.x > 0.57 || blockUVEyes.z > 0.15 && blockUVEyes.z < 0.43 || blockUVEyes.z < 0.85 && blockUVEyes.z > 0.57) && blockUVEyes.y > 0.42 && blockUVEyes.y < 0.58 && abs(clamp01(dot(normal, upVec))) < 0.99) eyes1 = vec3(1.0); // Eye Shape 1 Horizontal
+        // if ((blockUVEyes.x > 0.65 && blockUVEyes.x < 0.8 || blockUVEyes.x < 0.35 && blockUVEyes.x > 0.2 || blockUVEyes.z > 0.65 && blockUVEyes.z < 0.8 || blockUVEyes.z < 0.35 && blockUVEyes.z > 0.2) && blockUVEyes.y > 0.3 && blockUVEyes.y < 0.7 && abs(clamp01(dot(normal, upVec))) < 0.99) eyes2 = vec3(1.0); // Eye Shape 2 Vertical
+        // vec3 spookyEyes = mix(eyes1, eyes2, step(0.75, hash13(mod(floor(worldPos + atMidBlock / 64) + frameTimeCounter * 0.00005, vec3(100))))); // have either eye shape 1 or 2 randomly, the horizontal ones have a 0.75 to 0.25 higher probability of appearing
+        // spookyEyes *= vec3(step(1.0075 - spookyEyesFrequency * 0.01, hash13(mod(floor(worldPos + atMidBlock / 64) + frameTimeCounter * 0.0000005 * spookyEyesSpeed, vec3(100))))); // Make them appear randomly and much less
     #endif
 
     #ifdef IPBR

@@ -1,0 +1,13 @@
+name = "Jsonite"
+filename = "jsonite-pre-alpha-0.0.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/z7XJCSOV/versions/FGKBk2ZF/jsonite-pre-alpha-0.0.5.jar"
+hash-format = "sha512"
+hash = "8eb2aefaa5da7f14ab255dc5363b56b5df974cb0c81f0dfcf756430741d7c33c401a5a1b1009e4e92ba90ef6300808da471e144e3c5f3730ea4dcbe5f6b024b1"
+
+[update]
+[update.modrinth]
+mod-id = "z7XJCSOV"
+version = "FGKBk2ZF"

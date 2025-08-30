@@ -167,6 +167,8 @@ vec2 applyHorizontalNoise(vec2 texCoordM, float resolution, float intensity, flo
 
 // Function to apply vertical screen displacement
 void applyVerticalScreenDisplacement(inout vec2 texCoordM, inout float verticalOffset, float verticalScrollSpeed, float verticalStutterSpeed, float verticalEdgeGlitch, bool isVertical) {
+    return;
+    // dont do that shit it's annoying
     float displaceEffectOn = 1.0;
     #if defined SPOOKY && (!defined RETRO_ON || !defined VERTICAL_SCREEN_DISPLACEMENT)
         float randomShutterTime = 24000.0 * hash1(worldDay * 5);

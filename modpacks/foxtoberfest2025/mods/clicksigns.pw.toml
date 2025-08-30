@@ -1,0 +1,13 @@
+name = "Click Signs"
+filename = "ClickSigns-1.0.3+1.21.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xaXWiLzT/versions/ITpaOl1K/ClickSigns-1.0.3%2B1.21.4.jar"
+hash-format = "sha512"
+hash = "6ab55e916ca70abac127a5ca58589b533806366b0c134c42f263b028e044f2f037f638225bd545abb5fcae983423ebfff6425f0493ab975ad1bcd3290b82e9e8"
+
+[update]
+[update.modrinth]
+mod-id = "xaXWiLzT"
+version = "ITpaOl1K"
