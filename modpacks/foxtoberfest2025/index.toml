@@ -13,6 +13,10 @@ file = "config/sound_physics_remastered/soundphysics.properties"
 hash = "acf4320bbe56a2f2f47c2549c2357549ea4ea88402a693c8c2e96cc1da328e0e"
 
 [[files]]
+file = "config/yosbr/options.txt"
+hash = "fde51f1a7d649919849979be05fef193c4dc8d9629560d89908660c0b7bd6f4a"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "9bd6ba58d937a371fc6bb73947e19c75020af78fc16a4a56683e5f289075bb29"
 metafile = true
@@ -243,6 +247,11 @@ hash = "6ccfb0510224ba02a258808eea694bee5d976a998b76608e5648b17fa8bf84f0"
 metafile = true
 
 [[files]]
+file = "mods/glitchcore.pw.toml"
+hash = "a2c985cf1b1774fe4e06a766c147bfa3e68e8cb16ce960c3f9c8a125de4777cf"
+metafile = true
+
+[[files]]
 file = "mods/hostile-mobs-improve-over-time.pw.toml"
 hash = "12164facc57eae62f75e0a5d4f9257c83dbe4f76c8cdb64fae29ac3ecda50c3f"
 metafile = true
@@ -395,6 +404,11 @@ metafile = true
 [[files]]
 file = "mods/mru.pw.toml"
 hash = "c71075106b0f5ddc29718d90e923c62388e4b17d741ff34a3cfa1cddaa43b86e"
+metafile = true
+
+[[files]]
+file = "mods/nice-keep-inventory.pw.toml"
+hash = "cec2887b40bb7be2472380e9930ce7f76172640f8d1356f468c2dd3119d1a03d"
 metafile = true
 
 [[files]]
@@ -553,6 +567,11 @@ hash = "83740701bb98a573f077678ff0dd3e58a5fd251aba7fe8addd2c6744da9145c0"
 metafile = true
 
 [[files]]
+file = "mods/tough-as-nails.pw.toml"
+hash = "25c190f7e4aeee5348e2f4116a5c79178081054e3e1fb1dcc5848e00e0329f4f"
+metafile = true
+
+[[files]]
 file = "mods/travelersbackpack.pw.toml"
 hash = "fe43d0f2986dad2eec389a81b56ebc7a84ac6c1ec3533d28cb18ecddb07b5dd5"
 metafile = true
@@ -565,6 +584,11 @@ metafile = true
 [[files]]
 file = "mods/veinminer.pw.toml"
 hash = "324b5730c0b047adb5c11356a4bc994d2b3b9a941b2f66f002a1e285c3a08e72"
+metafile = true
+
+[[files]]
+file = "mods/village-spawn-point.pw.toml"
+hash = "e39bba80cd3ca4ad7e770e7e591ed20b690cdc28658d59976afc69db159401ee"
 metafile = true
 
 [[files]]
@@ -585,6 +609,11 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "10f163a2191248c9e512c162a4697e954df7d4a5d837260ec01ac81be6c5447d"
+metafile = true
+
+[[files]]
+file = "mods/yosbr.pw.toml"
+hash = "1bb9b2e75c6934b1f18648e9b37e20abcf6a4a2547c7cdb0abe88407267e0c10"
 metafile = true
 
 [[files]]
@@ -610,6 +639,11 @@ metafile = true
 [[files]]
 file = "mods/zombified-player.pw.toml"
 hash = "48e188ec28b115b54e27b63e793fa6f80bde5a4768d98e77eb699c9cce0e76d9"
+metafile = true
+
+[[files]]
+file = "resourcepacks/golden-days.pw.toml"
+hash = "62548c1e52d6629ce3e73e373e3fcc157c76a24b208d44f8536e4eff1ff3a33b"
 metafile = true
 
 [[files]]
@@ -1648,7 +1682,7 @@ hash = "d7dccc13f7b673cc25b674876ae2efff620a362a6cb391ba562aaf0f236a211c"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5/shaders/program/gbuffers_terrain.glsl"
-hash = "3e20a5314653ec83f4c23c211e7b41ae35b7c5b928fd944b9569802ca24251d7"
+hash = "04775f4161a6caa3a28900c901ae5a06e01fbda269978a097cfbb9c3a3c91c24"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5/shaders/program/gbuffers_textured.glsl"

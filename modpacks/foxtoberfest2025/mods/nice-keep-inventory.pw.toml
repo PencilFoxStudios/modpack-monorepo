@@ -1,0 +1,13 @@
+name = "Nice Keep Inventory"
+filename = "nice-keep-inventory-1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ndCP1ncq/versions/3iy5JsXm/nice-keep-inventory-1.1.jar"
+hash-format = "sha512"
+hash = "2a1669dca82a92a4259513f35b32867aa749f4bfbb2122d3a196d3ac755ce526a665d2b649d37342b3578cc901fdd49142053fbc94f310df8415baf93ba798dc"
+
+[update]
+[update.modrinth]
+mod-id = "ndCP1ncq"
+version = "3iy5JsXm"
