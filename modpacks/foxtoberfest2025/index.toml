@@ -267,11 +267,6 @@ hash = "df4639cc4a4c46bbf61743aa5b5b82bd9939b1be70d1a9408184fc6505de2cc6"
 metafile = true
 
 [[files]]
-file = "mods/hostile-mobs-improve-over-time.pw.toml"
-hash = "12164facc57eae62f75e0a5d4f9257c83dbe4f76c8cdb64fae29ac3ecda50c3f"
-metafile = true
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "eec54c8310038eaf8625ace2ab01e8ca6b1ce68b0e6a051835cf2faf324478c6"
 metafile = true
