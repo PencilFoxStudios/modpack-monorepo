@@ -447,11 +447,6 @@ hash = "a2919511e7a94daa381cd29cc2a7db5ac7dd800acf05566cb0281557328134e0"
 metafile = true
 
 [[files]]
-file = "mods/photonics.pw.toml"
-hash = "3ed6079fa497e41a6dbe4781a0bcc597b63e996607a404a6d0302c6a1093ec68"
-metafile = true
-
-[[files]]
 file = "mods/piggybacks.pw.toml"
 hash = "43f25bea40f8ce8ab4e210e2fdf25bacd31e2f667a506db2edf3f9aa4fc0b93a"
 metafile = true
