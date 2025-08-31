@@ -193,7 +193,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "794ea065ee10e98aa4260f84b13bf214f3be822bd90d93452b8b1a0ad52e1d63"
+hash = "b2f2ef63febe17f277635827ca474e1aeae321e8a82bef78942116f95d00250a"
 metafile = true
 
 [[files]]
@@ -487,6 +487,11 @@ hash = "16ea11cfb2e23bfabff2b885f9783dff0daf0454f68cbd36402ca30870e5bc1b"
 metafile = true
 
 [[files]]
+file = "mods/seasonhud-fabric.pw.toml"
+hash = "2159844202e0304db9e9e08d7b0b2d40c4180dde7610ee649f4f643ac2ad187d"
+metafile = true
+
+[[files]]
 file = "mods/serene-seasons.pw.toml"
 hash = "9a52c0abc1a0ea0162a0c6700ed0d89d0dc5b073c80b09339cfb602d16e2686e"
 metafile = true
@@ -629,6 +634,11 @@ metafile = true
 [[files]]
 file = "mods/void-fog.pw.toml"
 hash = "7bce2b2b0558ec0c0c0c84614905cac8237378eb5feb3f54dae33cab234f6c36"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "28fe55b943f4fc01ada2eecacd80d1da568128dcd6c3ed7334bb604ad6a93318"
 metafile = true
 
 [[files]]
