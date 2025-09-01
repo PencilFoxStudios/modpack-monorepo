@@ -152,11 +152,6 @@ hash = "e5d781f015e6fba059d02ccb4062058837e5e637ecebf83d428be060f1c7e004"
 metafile = true
 
 [[files]]
-file = "mods/debugify.pw.toml"
-hash = "f605331d864b266407b9d4486a4355febbc80b5e2e6ef75e4d92d45d2b29bc8f"
-metafile = true
-
-[[files]]
 file = "mods/diagonal-windows.pw.toml"
 hash = "f0a76d5bb6f7f7f0608eb5102f353709072fb7790fba6823cf96f7e3dd8f8d1a"
 metafile = true
