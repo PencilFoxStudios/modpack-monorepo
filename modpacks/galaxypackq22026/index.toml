@@ -101,11 +101,6 @@ hash = "6d369d90dac6730c6faa243bf73d00d9945e2a932c9c031eb7619d979eaebe8d"
 metafile = true
 
 [[files]]
-file = "mods/better-compatibility-checker.pw.toml"
-hash = "f5eabbef8dbed2bc19e632718a720a6d77466eeb66b9b220930f7f66e8a9d032"
-metafile = true
-
-[[files]]
 file = "mods/betterend-forge.pw.toml"
 hash = "d930d60fa31cc27523b781192b941e4164c295f43de129a396fd6ed0f2e3d8e8"
 metafile = true
