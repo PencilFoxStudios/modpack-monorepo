@@ -206,6 +206,11 @@ hash = "17a10532b2a12768f31f8bd209024312e6e224d01f87c8476704000b40d2334e"
 metafile = true
 
 [[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "eb0a4706616b3cd750f2fcfaae9ee8777a0618f79b1bc1f29c11307cbf07206d"
+metafile = true
+
+[[files]]
 file = "mods/create-ad-astra-recipes.pw.toml"
 hash = "50e8c9f27bf196a61d70bea253833c6a52b17879020620003a73b31d5457ca13"
 metafile = true
