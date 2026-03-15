@@ -1,0 +1,13 @@
+name = "BluemapFrontiers"
+filename = "bluemapfrontiers-1.20.1_forge-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/OGGG6gVy/versions/e6SxXn7W/bluemapfrontiers-1.20.1_forge-1.0.0.jar"
+hash-format = "sha512"
+hash = "ef7f9dce1b029782ea991f01395738a0daa63dd4e32a29c287874544517438c065a6dd7ec8dbc31a4ba49c8cca50f942dc881d3ee9ef26591bd91942c05bb9bb"
+
+[update]
+[update.modrinth]
+mod-id = "OGGG6gVy"
+version = "e6SxXn7W"

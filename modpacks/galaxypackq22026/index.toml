@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
+hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
 metafile = true
 
 [[files]]
@@ -121,6 +121,11 @@ hash = "55ab212ba17d188a2f95b65d4cf63bbc98c664aa74986b57d288d12e62bac780"
 metafile = true
 
 [[files]]
+file = "mods/bluemapfrontiers.pw.toml"
+hash = "10ba3fd700250983f000f177eff123298612405c73a68993407acf2c9ac1fe8b"
+metafile = true
+
+[[files]]
 file = "mods/blueprint.pw.toml"
 hash = "90fc66d49d29c1b1a5b14c5d571d628c6853f7f0519b04e74e14399c75cd08c6"
 metafile = true
@@ -133,6 +138,11 @@ metafile = true
 [[files]]
 file = "mods/carry-on.pw.toml"
 hash = "a613f5d2df911fea606968bbdb56eebfd05ac02ada846cf0d2e56e72345d9338"
+metafile = true
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "7bebb016d06888c0efafc464ed041dad7fded7c0947457bdfb9eedf00b48f9d2"
 metafile = true
 
 [[files]]
@@ -163,6 +173,11 @@ metafile = true
 [[files]]
 file = "mods/collective.pw.toml"
 hash = "d47260d085f9c59609bbc7582968e60f4c476d934c815142360bbcc4b5113a4d"
+metafile = true
+
+[[files]]
+file = "mods/computer-cartographer.pw.toml"
+hash = "81b4a182487cdeb22bfd608a69bc7de5af7784307ee2d41f3439f9963c565921"
 metafile = true
 
 [[files]]
@@ -693,6 +708,11 @@ metafile = true
 [[files]]
 file = "mods/man-of-many-planes.pw.toml"
 hash = "b482e3d990ca0981e6a9204436745869b77b4870ea9c5afa95e6301da1d871b6"
+metafile = true
+
+[[files]]
+file = "mods/mapfrontiers.pw.toml"
+hash = "859e14c1e4d14ab04385995fdfd183929d9dde748b7d511481d817eebecd23c2"
 metafile = true
 
 [[files]]
