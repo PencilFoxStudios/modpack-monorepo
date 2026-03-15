@@ -276,11 +276,6 @@ hash = "e2f6ea99d54ae392b33fb1911f9a3861cb43537435198f08df58a7c904a43883"
 metafile = true
 
 [[files]]
-file = "mods/create-northstar.pw.toml"
-hash = "d58a5d14fb74bb823416938acb08d4d1a046565dd452b26351b4b1b220bc6a78"
-metafile = true
-
-[[files]]
 file = "mods/create-ore-excavation.pw.toml"
 hash = "df547fc51e128ea2cb0af3cbc651cab63feefd5e675444262776dd530d63a1e4"
 metafile = true
