@@ -1,0 +1,13 @@
+name = "Meowing?"
+filename = "meowing-1.20.1-forge-1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FBf5onys/versions/NZSZlHg0/meowing-1.20.1-forge-1.4.jar"
+hash-format = "sha512"
+hash = "4992b187a98538358c69c2e4c833c52d46161c275a946e4cad27e1ef114648487a79e03abc5508ed29c9cf7c8c615ad5ee745941caa7f2fcf1080434f086cc51"
+
+[update]
+[update.modrinth]
+mod-id = "FBf5onys"
+version = "NZSZlHg0"

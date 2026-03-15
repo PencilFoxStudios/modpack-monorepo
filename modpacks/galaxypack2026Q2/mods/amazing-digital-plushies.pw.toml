@@ -1,0 +1,13 @@
+name = "Amazing Digital Plushies"
+filename = "amazing-digital-plushies-forge-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/J7XYBmDh/versions/JR1KEshm/amazing-digital-plushies-forge-1.20.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "cb179f97a1c49d2ceda8ebb64ecba607fdd045529118227e5fb2bff93ec31d23d07888a8c8a1446aea2b7bb1e255e77e7c186b68c0b73906343239e18313d416"
+
+[update]
+[update.modrinth]
+mod-id = "J7XYBmDh"
+version = "JR1KEshm"

@@ -1,0 +1,13 @@
+name = "Valkyrien Skies: Tournament Reforged"
+filename = "vs-tournament-reforged-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VW7RrrFu/versions/9UaEkxMW/vs-tournament-reforged-1.0.3.jar"
+hash-format = "sha512"
+hash = "98c77b63d1ac657fca4e9bdfb1ade99c9e42f9f309c7b98583d990990045e25eaf040d9efc82cae940317828f15fd0f98d28f02d1699524dcd382320fd8affbe"
+
+[update]
+[update.modrinth]
+mod-id = "VW7RrrFu"
+version = "9UaEkxMW"

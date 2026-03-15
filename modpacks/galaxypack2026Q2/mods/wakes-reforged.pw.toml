@@ -1,0 +1,13 @@
+name = "Wakes Reforged"
+filename = "wakes-1.20.1-Forge-1.0.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/E0SdeAoH/versions/lIXIoSof/wakes-1.20.1-Forge-1.0.9.jar"
+hash-format = "sha512"
+hash = "5189e5eb7325904bb6a9e7ee5a5115d2a41a7a2fcc6de71212ceb8ea6024fa7257a231072d1b58cb6ddcdc0f5b1db1200344d50daa0da416caa9d8e3848950ed"
+
+[update]
+[update.modrinth]
+mod-id = "E0SdeAoH"
+version = "lIXIoSof"

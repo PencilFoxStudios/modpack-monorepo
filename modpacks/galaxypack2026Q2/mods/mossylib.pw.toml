@@ -1,0 +1,13 @@
+name = "MossyLib"
+filename = "MossyLib-1.1.0+1.20.1+forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ffLDUGbm/versions/tT5NL3ck/MossyLib-1.1.0%2B1.20.1%2Bforge.jar"
+hash-format = "sha512"
+hash = "4f005dd2b63d9a34543dd175ffc9c1b7047e365270d309618d9b1c54d20a22d44083d682ff6083541de6e7b9770954f0ad0df445fa641a2fe85a0ccf922c2821"
+
+[update]
+[update.modrinth]
+mod-id = "ffLDUGbm"
+version = "tT5NL3ck"

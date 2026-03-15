@@ -1,0 +1,13 @@
+name = "Unusual Fish Mod"
+filename = "unusualfishmod-1.1.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vYSi4UOX/versions/K2bnBnsl/unusualfishmod-1.1.9.jar"
+hash-format = "sha512"
+hash = "963549748f81e188065b0ee5719e1d25e50fabd852b86f274cea44e89fcfd9e9dca9e282f884bb5eec37e5f346263e677c9822ec17e40d1821159af9b6a69dec"
+
+[update]
+[update.modrinth]
+mod-id = "vYSi4UOX"
+version = "K2bnBnsl"

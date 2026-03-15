@@ -1,0 +1,13 @@
+name = "Create: Enlightend"
+filename = "create_enlightend-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PSQLOzw4/versions/YIcq5eBt/create_enlightend-1.0.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "2487c293cc71d309395e27cbe26b024fd2cc26c626a35ada16d0f9dac4bc16cc9bf3dbc76e29447d0d9e537f8b6af9df6b6e6191c6d54a96bcdb7b1fa63e9821"
+
+[update]
+[update.modrinth]
+mod-id = "PSQLOzw4"
+version = "YIcq5eBt"

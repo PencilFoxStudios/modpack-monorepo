@@ -1,0 +1,13 @@
+name = "BCLib Forge"
+filename = "BCLib-20.0.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/obMZk452/versions/w8wgBWNI/BCLib-20.0.7.jar"
+hash-format = "sha512"
+hash = "a1b2d7f5f8c02b3fd6be85e8ba546f7b01cd46be53ff6d594ca8ae92671b7f557bb0d79162f04f9164529dfe8e4485797f32cd583eac4875291bc1b18aeeb3bc"
+
+[update]
+[update.modrinth]
+mod-id = "obMZk452"
+version = "w8wgBWNI"

@@ -1,0 +1,13 @@
+name = "Create Ad Astra Recipes"
+filename = "create_ad_astra_recipes-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bFyxs7LI/versions/ojF27UGr/create_ad_astra_recipes-1.0.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "ad36cfa16f51670fdd3604c3dbae1ac6aaa6a3789bd878b99cb6e7c7b2a0eee40c43ceff9b09ba0d55cba1390ba930b761642c78540cd8243503986db2697937"
+
+[update]
+[update.modrinth]
+mod-id = "bFyxs7LI"
+version = "ojF27UGr"

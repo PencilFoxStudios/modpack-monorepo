@@ -1,0 +1,13 @@
+name = "Ad Astra: Structures Overhaul"
+filename = "aso-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1075a33b6f4f771bb4d2fc55351eeb45cbe7f724"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7233784
+project-id = 1386899

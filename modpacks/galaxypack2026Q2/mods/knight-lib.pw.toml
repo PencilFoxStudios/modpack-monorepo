@@ -1,0 +1,13 @@
+name = "Knight Lib"
+filename = "knightlib-forge-1.20.1-1.4.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hAnl9nbm/versions/eQMpmRBx/knightlib-forge-1.20.1-1.4.3.jar"
+hash-format = "sha512"
+hash = "98a8b9bc36eef59b359f57e23f6029fe329ef49769096ae77a14dc8b4d493f271b351570204b6d813ed27b6a366222abcced4e0ffccb20540a533827a182673b"
+
+[update]
+[update.modrinth]
+mod-id = "hAnl9nbm"
+version = "eQMpmRBx"

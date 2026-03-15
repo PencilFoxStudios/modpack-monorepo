@@ -1,0 +1,13 @@
+name = "Spawn"
+filename = "spawn-3.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rex9wwpz/versions/leymEt9o/spawn-3.3.jar"
+hash-format = "sha512"
+hash = "52387c93b42a70dd12702f513f7e48c9c6e13baee24b549a4c61b6fc4dae6b5eb3861f0358f3bd3736cd5ff3753f18895e878d4930b0623b42d767eb4df86db7"
+
+[update]
+[update.modrinth]
+mod-id = "rex9wwpz"
+version = "leymEt9o"

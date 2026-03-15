@@ -1,0 +1,13 @@
+name = "BetterEnd Forge"
+filename = "BetterEnd-20.0.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/aSIFLYIc/versions/Od3ayslE/BetterEnd-20.0.7.jar"
+hash-format = "sha512"
+hash = "98a48e6e82f23c2cdfbda8d5fbf9ea10b2ea5bb5a4edb5711d08af6556407fd634e5b4e7b7a979c804bcaffd4f3ba72ad52cfb74d419632b7bab344a73315cf1"
+
+[update]
+[update.modrinth]
+mod-id = "aSIFLYIc"
+version = "Od3ayslE"

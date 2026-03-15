@@ -1,0 +1,13 @@
+name = "Create: Fox's Wings"
+filename = "elytramodfox-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/arHQz0zX/versions/VA8XQ2e4/elytramodfox-1.0.2.jar"
+hash-format = "sha512"
+hash = "8d48720920b20f9b1a91e5f449c6dffd930da128d53b78013e1d75e099ec9312d4c0b40e48fde9b7249916d5f650197aa5c2dfd4b0846d36c4f6145455f17118"
+
+[update]
+[update.modrinth]
+mod-id = "arHQz0zX"
+version = "VA8XQ2e4"

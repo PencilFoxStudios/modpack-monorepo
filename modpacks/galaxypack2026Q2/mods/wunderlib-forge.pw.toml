@@ -1,0 +1,13 @@
+name = "WunderLib Forge"
+filename = "WunderLib-20.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5T56XRUO/versions/FFIJ4Ioj/WunderLib-20.0.1.jar"
+hash-format = "sha512"
+hash = "00b893b1a03f7d0e2339caa4916fc5595ac20eb11b60ad7fd68ca4485620bae670fec0c5694216c4a863cdd2948b36a412f9924219e6279d407c6e3178642028"
+
+[update]
+[update.modrinth]
+mod-id = "5T56XRUO"
+version = "FFIJ4Ioj"

@@ -1,0 +1,13 @@
+name = "Scuba Gear"
+filename = "scuba_gear-1.20.1-1.0.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OeM72JOF/versions/QGN20HZi/scuba_gear-1.20.1-1.0.6.jar"
+hash-format = "sha512"
+hash = "6b9a07aa8a1e9a51487903ff8d6950f1d802132ef8a19f981b38cdf11521a7e8a64d500c6e69a566b70a732d9ebd2165e7973096391a2df4e884d2a3f8f39fc0"
+
+[update]
+[update.modrinth]
+mod-id = "OeM72JOF"
+version = "QGN20HZi"

@@ -1,0 +1,13 @@
+name = "Jade Modded Entities"
+filename = "jademoddedentities-forge-1.20.1-1.3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GAJkSU0A/versions/GlOm0XS0/jademoddedentities-forge-1.20.1-1.3.1.jar"
+hash-format = "sha512"
+hash = "ecc8b526f5293289b407f7b399e94fe5f3d45995f4136afcb68bbf2e9345de08de489669ff3c44cccc7666de882539b36e89e017ba599b7041d1349ab8b36229"
+
+[update]
+[update.modrinth]
+mod-id = "GAJkSU0A"
+version = "GlOm0XS0"

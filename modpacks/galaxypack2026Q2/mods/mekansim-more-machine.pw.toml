@@ -1,0 +1,13 @@
+name = "Mekanism More Machine"
+filename = "MekanismMoreMachine-1.20.1-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "371e8c66dbc2fce373f5333d2eec90f985d9414e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6220155
+project-id = 1205233

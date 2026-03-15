@@ -1,0 +1,13 @@
+name = "Cool Rain Reforged"
+filename = "coolrain-1.20.1-Forge-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IgftU6Mn/versions/Z3Yf3JBe/coolrain-1.20.1-Forge-1.0.3.jar"
+hash-format = "sha512"
+hash = "63cd9092cc1bbc57327d2a3b25dd9aa69c66e15fabe03d95b9e79f047bd28f5b59236c61ae22e8a55978d427a10211e127319ab71f4d970241fcadc5f1b69174"
+
+[update]
+[update.modrinth]
+mod-id = "IgftU6Mn"
+version = "Z3Yf3JBe"

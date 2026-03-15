@@ -1,0 +1,13 @@
+name = "Animights"
+filename = "animights-forge-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BFzwTnQr/versions/4wIJ71HN/animights-forge-1.20.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "7341ac16b50fb3842a09d12503f35a293d2cfc430476131ef66d8f79810813a13e6ca5e0c5be588013279e48cc553b64e49a6e2130786f115bbc951721f9d1b5"
+
+[update]
+[update.modrinth]
+mod-id = "BFzwTnQr"
+version = "4wIJ71HN"

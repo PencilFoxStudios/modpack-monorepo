@@ -1,0 +1,13 @@
+name = "Ad Astra :Tools"
+filename = "[Forge]AdAstraTools2.0.4 - 1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/x187Px7Z/versions/GfWezDyu/%5BForge%5DAdAstraTools2.0.4%20-%201.20.1.jar"
+hash-format = "sha512"
+hash = "12f87ae1a22cdaf551e0d59c7b88bcaeae60d87cf65a36e5c2556eeb3eeee7f804f119db542809509d6dc1e11351d5d53df2fd97d14b72bfb1fd01abc73fbb61"
+
+[update]
+[update.modrinth]
+mod-id = "x187Px7Z"
+version = "GfWezDyu"

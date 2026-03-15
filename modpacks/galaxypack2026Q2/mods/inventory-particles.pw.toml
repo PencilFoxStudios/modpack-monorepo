@@ -1,0 +1,13 @@
+name = "Inventory Particles"
+filename = "InventoryParticles-1.5.0+1.20.1+forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/XYnKrsxH/versions/IvoLnc1A/InventoryParticles-1.5.0%2B1.20.1%2Bforge.jar"
+hash-format = "sha512"
+hash = "5ae2ce1e0d2270c3beb941b2fb5771b373c2f1dea961a06d2e75ac6f13b4f0e87655b779f5c9b735c33592433e1971e61ef11a83a51a389eadabaf0d2e5715c2"
+
+[update]
+[update.modrinth]
+mod-id = "XYnKrsxH"
+version = "IvoLnc1A"

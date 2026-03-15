@@ -1,0 +1,13 @@
+name = "ImmersiveThunder-Forged"
+filename = "ImmersiveThunder-forge-1.2.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/diy3cBDJ/versions/VPBDpH21/ImmersiveThunder-forge-1.2.3.jar"
+hash-format = "sha512"
+hash = "6ce64cc341e2ceb356b31b0b0ae47900bf8c759f8af598106e644c496da6229d100f74a89c9920e1add275550c91889e66b205af07f3d68bb2cea78a67e4e99b"
+
+[update]
+[update.modrinth]
+mod-id = "diy3cBDJ"
+version = "VPBDpH21"

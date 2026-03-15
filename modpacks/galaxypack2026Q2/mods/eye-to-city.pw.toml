@@ -1,0 +1,13 @@
+name = "Eye to city"
+filename = "eye-to-city-1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TYOsE3t5/versions/wTSjlreQ/eye-to-city-1.1.jar"
+hash-format = "sha512"
+hash = "92a0633d39ab69d923782fc0fac562d109cede084b9983871516f7469e947e9022461b45a37ac67ef0add54af414f0963da9e2f47046c6e9baf5b40cde8fc2ab"
+
+[update]
+[update.modrinth]
+mod-id = "TYOsE3t5"
+version = "wTSjlreQ"

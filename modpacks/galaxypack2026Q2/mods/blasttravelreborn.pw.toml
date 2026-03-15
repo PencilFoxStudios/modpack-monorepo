@@ -1,0 +1,13 @@
+name = "Blast Travel Reborn"
+filename = "blasttravelreborn-1.0.7-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3FcABk4z/versions/p1Ao1qCI/blasttravelreborn-1.0.7-all.jar"
+hash-format = "sha512"
+hash = "943ca5fe3462657eb5e00fc98041cfc5d3f87aa96f3601ae463539ca44fbda58639722c677021c18be5e46dd06d6f2b4be49a25d9caa75845566acbfdd17de33"
+
+[update]
+[update.modrinth]
+mod-id = "3FcABk4z"
+version = "p1Ao1qCI"
