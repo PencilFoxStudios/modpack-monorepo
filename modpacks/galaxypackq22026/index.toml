@@ -1081,11 +1081,6 @@ hash = "c66abcf408ad2d6ffe3fe7b2db9fc08ec2540896011047a58394d467669eef9c"
 metafile = true
 
 [[files]]
-file = "mods/unilib.pw.toml"
-hash = "269c464f39adc82fd37712995be9d4d852da3e2bb0947425afda811e1fd4af48"
-metafile = true
-
-[[files]]
 file = "mods/universal-sawmill.pw.toml"
 hash = "231e9ce2be39e75b040f4fcd8ae12c8aabb897dacad0a589ee1f12f014b6e02e"
 metafile = true
