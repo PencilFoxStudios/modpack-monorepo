@@ -221,11 +221,6 @@ hash = "17a10532b2a12768f31f8bd209024312e6e224d01f87c8476704000b40d2334e"
 metafile = true
 
 [[files]]
-file = "mods/crash-assistant.pw.toml"
-hash = "eb0a4706616b3cd750f2fcfaae9ee8777a0618f79b1bc1f29c11307cbf07206d"
-metafile = true
-
-[[files]]
 file = "mods/create-ad-astra-recipes.pw.toml"
 hash = "50e8c9f27bf196a61d70bea253833c6a52b17879020620003a73b31d5457ca13"
 metafile = true
@@ -643,6 +638,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "b0441c2b5bb6ff680d97eac28d95847f0d4dbee34d1d42d897997b500acd44ca"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "b29b617692233d60179a6d7376dade85063af0e73a3cc53c623bf570fb768d82"
 metafile = true
 
 [[files]]
