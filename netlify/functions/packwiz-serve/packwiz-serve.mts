@@ -39,7 +39,8 @@ export default async (req: Request, _ctx: Context) => {
 
   let name = path.basename(abs);
 
-  // If the file is instance.zip, rename it in the response to <slug>.zip hi 
+  // If the file is instance.zip, rename it in the response to <slug>.zip hi another test
+
   if (name.toLowerCase() === "instance.zip") {
     name = `${slug}.zip`;
   }
