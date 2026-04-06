@@ -6,16 +6,22 @@ import path from "node:path";
 const ROOT = process.cwd();
 const MODPACKS = path.join(ROOT, "modpacks");
 
-function isText(name: string) { return /\.(toml|txt|json|sha256)$/i.test(name); }
+function isText(name: string) {
+  return /\.(toml|txt|json|sha256)$/i.test(name);
+}
+
 function mime(name: string) {
   const ext = path.extname(name).toLowerCase();
-  if (ext === ".toml" || ext === ".txt" || ext === ".sha256" || ext === ".properties") return "text/plain; charset=utf-8";
+  if (ext === ".toml" || ext === ".txt" || ext === ".sha256" || ext === ".properties")
+    return "text/plain; charset=utf-8";
   if (ext === ".json") return "application/json; charset=utf-8";
   if (ext === ".zip") return "application/zip";
   if (ext === ".jar") return "application/java-archive";
   return "application/octet-stream";
 }
 
+// deliver files as normal, except when path ends with /getInstance/<name>.zip,
+// then serve instance.zip as <name>.zip with content-type application/zip
 export default async (req: Request, _ctx: Context) => {
   const url = new URL(req.url);
   const pathname = url.pathname.replace(/^\/\.netlify\/functions\/[^/]+/, "");
@@ -24,41 +30,57 @@ export default async (req: Request, _ctx: Context) => {
   if (parts.length < 2) return new Response("No index", { status: 404 });
 
   const slug = parts[0].toLowerCase();
-  console.log(slug);
   if (!/^[a-z0-9-_]+$/.test(slug)) return new Response("Bad slug", { status: 400 });
 
-  const rel = decodeURIComponent(parts.slice(1).join("/"));
-  if (!rel || rel.includes("..")) return new Response("Invalid path", { status: 400 });
-
   const base = path.join(MODPACKS, slug);
+
+  // Detect /getInstance/<name>.zip
+  const isGetInstance = parts[1] === "getInstance" && parts.length >= 3;
+
+  let rel: string;
+  let downloadName: string;
+
+  if (isGetInstance) {
+    const requestedName = decodeURIComponent(parts.slice(2).join("/"));
+
+    if (!requestedName.toLowerCase().endsWith(".zip")) {
+      return new Response("Invalid instance request", { status: 400 });
+    }
+
+    // Always serve instance.zip from disk
+    rel = "instance.zip";
+
+    // But download as requested name
+    downloadName = requestedName;
+  } else {
+    rel = decodeURIComponent(parts.slice(1).join("/"));
+    if (!rel || rel.includes("..")) return new Response("Invalid path", { status: 400 });
+
+    downloadName = path.basename(rel);
+  }
+
   const abs = path.normalize(path.join(base, rel));
   if (!abs.startsWith(base + path.sep)) return new Response("Invalid path", { status: 400 });
-  console.log(abs);
+
   const st = await statFile(abs).catch(() => null);
   if (!st || !st.isFile()) return new Response("Not found", { status: 404 });
 
-  let name = path.basename(abs);
-
-  // If the file is instance.zip, rename it in the response to <slug>.zip hi another test
-
-  if (name.toLowerCase() === "instance.zip") {
-    const SLUG_TO_NAME: { [key: string]: string } = {
-      "foxtoberfest2025": "Foxtoberfest 2025",
-      "galaxypackq22026": "GalaxyCraft: Rails, Tails & Contrails",
-    };
-    const slugName:string = SLUG_TO_NAME[slug] || slug;
-    name = `${slugName}.zip`;
-  }
-
   const data = await readFile(abs);
-  const body: BodyInit = isText(name) ? data.toString("utf8") : new Uint8Array(data);
+
+  const body: BodyInit = isText(downloadName)
+    ? data.toString("utf8")
+    : new Uint8Array(data);
+
+  const contentType = isGetInstance
+    ? "application/zip"
+    : mime(downloadName);
 
   return new Response(body, {
     status: 200,
     headers: {
-      "Content-Type": mime(name),
+      "Content-Type": contentType,
       "Cache-Control": "public, max-age=300, s-maxage=300",
-      "Content-Disposition": `attachment; filename="${name}"`,
+      "Content-Disposition": `attachment; filename="${downloadName}"`,
     },
   });
 };
