@@ -14,7 +14,7 @@ hash = "0abc8c3f37f0d32212c0009d6b2eeb5394dd58c8525fa9dd652745c8bdea6746"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "fd5bbee4c9133f855f60f1286e7319e1133aa27400d02caacb0448b4ecaafd2b"
+hash = "8e0153b0caeaa9e911ad315cedec72405a99cd096d74bda4fb3e3c6d9b178644"
 
 [[files]]
 file = "config/drippyloadingscreen/options.txt"
