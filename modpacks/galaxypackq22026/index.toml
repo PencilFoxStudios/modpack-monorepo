@@ -10,7 +10,7 @@ hash = "0abc8c3f37f0d32212c0009d6b2eeb5394dd58c8525fa9dd652745c8bdea6746"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "9e3a6734a490ac75ca33aadc0288b4bb2370fea29249d7e2542cbf583a207895"
+hash = "b19d60c9b9c0cc1765664b3819492a120e4ee5780a7383ffa26af66358174bc2"
 
 [[files]]
 file = "config/drippyloadingscreen/options.txt"
@@ -82,7 +82,7 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "a83e520716f7d5fa43025d5991acd6e2160fc43ba604bd4c258b9f5c0812830f"
+hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
@@ -90,7 +90,7 @@ hash = "f01c6c7ea4a1fff537be3149d6e46bafa4f56c31f460edf5a482cf62e8f6d82c"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "c140897477b4a31ddecfc5a79919a59420dab807194e0da9c19387dddde7c74a"
+hash = "59b3bfb695dbecc7d68d37fc3720cfc0b403c2c25bcf81988d4466b6c3290103"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -102,7 +102,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "742cc87e549c3e79df761b7b64a9980cb5019c80edb1bad7bd720952ea56e7fb"
+hash = "96054b291c1baf16d805d5e954ce8ea23c0b27642999147f0ab1faef1dbd0dd4"
 
 [[files]]
 file = "config/fancymenu/panoramas/mypanorama/panorama/panorama_0.png"
@@ -2117,12 +2117,8 @@ file = "saves/Test World/stats/f05375c2-ab19-43bc-8093-6d9d57c17aa3.json"
 hash = "5104be4f5d3509a6cbe146ed9b1f628a95ad8f12d7686be5cc1ccbe19c546713"
 
 [[files]]
-file = "shaderpacks/Solas Shader V3.5.zip.txt"
-hash = "d7bc4add208466533cd0f3d4fc9ee45795d96f1732a2043d99203651408dfee6"
-
-[[files]]
-file = "shaderpacks/solas-shader.pw.toml"
-hash = "8bb6743ee26d57f8de5bbcb35fa38b9aec60a03113987178f1c128bd9dfcd2ee"
+file = "shaderpacks/bloop-shaders.pw.toml"
+hash = "3495531dac46f1035b2a1beac1f96321978ee70c0080835fe7f6606ad60ff183"
 metafile = true
 
 [[files]]
