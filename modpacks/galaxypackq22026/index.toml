@@ -13,10 +13,6 @@ file = "config/defaultoptions/options.txt"
 hash = "9e3a6734a490ac75ca33aadc0288b4bb2370fea29249d7e2542cbf583a207895"
 
 [[files]]
-file = "config/defaultoptions/servers.dat"
-hash = "b1f0519b2afda6521294ec8dcda37ef189e42e3f97211888980acf79f4a67d36"
-
-[[files]]
 file = "config/drippyloadingscreen/options.txt"
 hash = "8d0edcad69219e217683bde3437b11318db348c7cce676c7c67de99b58f0ccd5"
 
@@ -73,6 +69,10 @@ file = "config/fancymenu/assets/pencilfoxloading.png"
 hash = "71fb874162aef3401c20f74ca34e55baff9d1a8b45df782c20ee0113927f3732"
 
 [[files]]
+file = "config/fancymenu/assets/quilly.png"
+hash = "394e9d6011333495de26619f2f6a79f78ff0a9a8bd52e9fd42e6d8cfc3867201"
+
+[[files]]
 file = "config/fancymenu/assets/splashtexts.txt"
 hash = "030201b932debd6f9a5eccd48fb04d15ee94f6fab1f37b69d6f3d35aadf9c6be"
 
@@ -82,11 +82,11 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
+hash = "a83e520716f7d5fa43025d5991acd6e2160fc43ba604bd4c258b9f5c0812830f"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
-hash = "bc949e30e6b748bfe30a300bd52d80b3faffbab0f24283b218363dd358a2ff22"
+hash = "f01c6c7ea4a1fff537be3149d6e46bafa4f56c31f460edf5a482cf62e8f6d82c"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
@@ -102,7 +102,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "711010cdf6e2356bf88fc3b4ccbc42a74318f6e889ca2f528904814af19ea6f3"
+hash = "96054b291c1baf16d805d5e954ce8ea23c0b27642999147f0ab1faef1dbd0dd4"
 
 [[files]]
 file = "config/fancymenu/panoramas/mypanorama/panorama/panorama_0.png"
@@ -170,7 +170,7 @@ hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
 
 [[files]]
 file = "kubejs/startup_scripts/eat_moss.js"
-hash = "6c0e90f2e17a1cd54ae259e3d7550d84571f7514731cefb32f576ae0652f4c1c"
+hash = "b301bb57bfb5ead33714f9078b73f9d0b9779a022729ad49f21442aa27d3fd57"
 
 [[files]]
 file = "kubejs/startup_scripts/example.js"

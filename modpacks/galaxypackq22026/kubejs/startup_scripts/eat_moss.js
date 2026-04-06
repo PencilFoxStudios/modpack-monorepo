@@ -7,10 +7,6 @@ function mossEffect(item) {
     food.alwaysEdible();
     // poison for 0.5 seconds with an amplifier of 1 and a 50% chance to apply
     food.effect("minecraft:poison", 0.5, 1, 0.5);
-    // put in chat that the player has eaten moss and is now poisoned
-    food.onEat((player) => {
-      player.sendMessage("YOU MOSS-EATER!");
-    });
   };
 }
 
