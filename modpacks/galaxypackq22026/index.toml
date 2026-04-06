@@ -5,12 +5,16 @@ file = "config/SoundPhysicsPerfected.json5"
 hash = "7b8a26d4877eb38e2edc5b1815a5fa2a1fcb1a40668fb0957a80027c2178b533"
 
 [[files]]
+file = "config/craftpresence.json"
+hash = "b60e5c35dc6ef6f5f7ca9dcb8b8e09f2741d0afae23fea2350e608693122c377"
+
+[[files]]
 file = "config/defaultoptions/keybindings.txt"
 hash = "0abc8c3f37f0d32212c0009d6b2eeb5394dd58c8525fa9dd652745c8bdea6746"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "b19d60c9b9c0cc1765664b3819492a120e4ee5780a7383ffa26af66358174bc2"
+hash = "fd5bbee4c9133f855f60f1286e7319e1133aa27400d02caacb0448b4ecaafd2b"
 
 [[files]]
 file = "config/drippyloadingscreen/options.txt"
@@ -1377,6 +1381,11 @@ hash = "f08392a46a358be2ef15216943496053069411c45a8ff2d6ac7926a90b665dd4"
 metafile = true
 
 [[files]]
+file = "mods/weather-storms-tornadoes.pw.toml"
+hash = "8669708ff6478c72e7c5aa8c25c66e8178bbb316a684b86505fc986631eae6a3"
+metafile = true
+
+[[files]]
 file = "mods/what-are-they-up-to.pw.toml"
 hash = "c557d1b26559ef987c229187d2f2705616e78179ce04fa1c96cc3d76a1cdf1b5"
 metafile = true
@@ -2115,6 +2124,10 @@ hash = "51643361c79ecaef25a8de802de24f570ba25d9c2df1d22d94fade11b4f466cc"
 [[files]]
 file = "saves/Test World/stats/f05375c2-ab19-43bc-8093-6d9d57c17aa3.json"
 hash = "5104be4f5d3509a6cbe146ed9b1f628a95ad8f12d7686be5cc1ccbe19c546713"
+
+[[files]]
+file = "shaderpacks/Bloop-1.8.0-Alpha-3.zip.txt"
+hash = "84c47a9c3bd9ab250cf114ae5d57e402dc414f396f13d80b539047b4bf367f05"
 
 [[files]]
 file = "shaderpacks/bloop-shaders.pw.toml"
