@@ -30,11 +30,11 @@ glintSpeed:0.5
 glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
-gamma:0.5
+gamma:1.0
 renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
-guiScale:2
+guiScale:3
 particles:0
 maxFps:120
 graphicsMode:1
@@ -42,9 +42,9 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:[]
+resourcePacks:["vanilla","tacz_resources","mod_resources","Moonlight Mods Dynamic Assets","fabric","generated/fragmentum_layer","netherexp:jne_emissive","netherexp:jne_retextures"]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:198.27.75.187:25566
 lang:en_us
 soundDevice:""
 chatVisibility:0

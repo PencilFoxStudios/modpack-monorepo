@@ -42,7 +42,12 @@ export default async (req: Request, _ctx: Context) => {
   // If the file is instance.zip, rename it in the response to <slug>.zip hi another test
 
   if (name.toLowerCase() === "instance.zip") {
-    name = `${slug}.zip`;
+    const SLUG_TO_NAME: { [key: string]: string } = {
+      "foxtoberfest2025": "Foxtoberfest 2025",
+      "galaxypackq22026": "GalaxyCraft: Rails, Tails & Contrails",
+    };
+    const slugName:string = SLUG_TO_NAME[slug] || slug;
+    name = `${slugName}.zip`;
   }
 
   const data = await readFile(abs);
