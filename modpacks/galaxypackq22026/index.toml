@@ -676,6 +676,11 @@ hash = "589b370ffcef405a00daafc5bfa6febaeafef81aa797a3cb63a49555db90fd76"
 metafile = true
 
 [[files]]
+file = "mods/kleiders-custom-renderer-api.pw.toml"
+hash = "0e5e5e8a32a862ec73f0cc1fd544cff68a5612a2d7fd265c4132f28c42ef8037"
+metafile = true
+
+[[files]]
 file = "mods/knight-lib.pw.toml"
 hash = "66d8998143e892995603eaacd2b1117dedaee83f5e8ede08e4e18931e81137c3"
 metafile = true
@@ -1909,15 +1914,15 @@ hash = "3b61445b99a97c1069d6cdd1c0b37234722b33bb57ddf8f54862e26a4c50cffe"
 
 [[files]]
 file = "tacz/tacz_default_gun/assets/tacz/display/blocks/ammo_workbench.json"
-hash = "8cdad3501f0f0bfc5eac73dac37caf69b2722cb5dabf21ac0c9a4a85872cf696"
+hash = "916cd81cd64ec101cf56fbc2416a5291445aa1a8be15db35e57fb4b90ce2a931"
 
 [[files]]
 file = "tacz/tacz_default_gun/assets/tacz/display/blocks/attachment_workbench.json"
-hash = "bc61d6eccce497e8a3edc85cec36ab6610fc709e7effd8fdd9f018921b90a588"
+hash = "191615b41a6b6dc38330293135ac7eb71f9815a3d7bc489aed8b7d9769200b39"
 
 [[files]]
 file = "tacz/tacz_default_gun/assets/tacz/display/blocks/gun_smith_table.json"
-hash = "e07150c939e211ac863e3d6f1848dabd3de319ea7fde6bd36c73aeb92bcca30d"
+hash = "51980168cdd9eb83f416a9aff7555c47347eaa9e7f8f001046fed3f2f2eff82c"
 
 [[files]]
 file = "tacz/tacz_default_gun/assets/tacz/display/guns/aa12_display.json"
@@ -1929,7 +1934,7 @@ hash = "ffed171cc29f786a0876ed21e6584c0e7587c870627a3a9341ea814202574cb4"
 
 [[files]]
 file = "tacz/tacz_default_gun/assets/tacz/display/guns/ak47_display.json"
-hash = "2ac4fe9ee59a42ba107fa1119af4eb483371d52bf586a0c8a1518f832ac93d34"
+hash = "1f930f0ce33f4efe1993c5f98f55bbcf8ad8be96a4a56d8759a5f64c4700328c"
 
 [[files]]
 file = "tacz/tacz_default_gun/assets/tacz/display/guns/aug_display.json"
@@ -1953,7 +1958,7 @@ hash = "884b6c4e7f6415ab5a079e4d3b52607f777254dcd653d875e9df0d825ccf8afa"
 
 [[files]]
 file = "tacz/tacz_default_gun/assets/tacz/display/guns/deagle_display.json"
-hash = "ffeb4cc01c7387a3c208aaad64d7bdad3b48745fba2113c14db16973bd28757d"
+hash = "efadf4fb5dd09948ce55bec7245b361940e847a2a613200d101d181b8f386339"
 
 [[files]]
 file = "tacz/tacz_default_gun/assets/tacz/display/guns/deagle_golden_display.json"

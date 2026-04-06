@@ -1,0 +1,13 @@
+name = "Kleiders Custom Renderer API"
+filename = "kleiders_custom_renderer-7.4.1-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oaG6aa1j/versions/u7GegV7U/kleiders_custom_renderer-7.4.1-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "9151ff1a299cbc459452f3d48a8856898293a8276edaae8582c0fb9c3127153ad9af06d8843102167fcb2a468e132da71ae1dbebc38c3c300337f7e8b027fc48"
+
+[update]
+[update.modrinth]
+mod-id = "oaG6aa1j"
+version = "u7GegV7U"

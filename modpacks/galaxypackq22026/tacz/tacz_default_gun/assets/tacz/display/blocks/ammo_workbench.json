@@ -1,7 +1,5 @@
 {
-  // 默认的模型，在包目录下的 models 文件夹中寻找，不可为空
   "model": "tacz:block/ammo_workbench",
-  // 默认材质，不可为空
   "texture": "tacz:block/uv/ammo_workbench",
   "transforms": {
     "thirdperson_righthand": {
