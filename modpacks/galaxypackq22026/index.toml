@@ -1216,8 +1216,8 @@ hash = "f3b3d035b89519faccc4ddd8b0b4407ce96c0eb49068fe50a445d43a3baa8bea"
 metafile = true
 
 [[files]]
-file = "shaderpacks/shrimple.pw.toml"
-hash = "79733fc3a9a56bf32a40b4d79e4095747e0d010688887c76cc7a1e7db206d30a"
+file = "shaderpacks/solas-shader.pw.toml"
+hash = "8bb6743ee26d57f8de5bbcb35fa38b9aec60a03113987178f1c128bd9dfcd2ee"
 metafile = true
 
 [[files]]
