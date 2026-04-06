@@ -1,0 +1,13 @@
+name = "Sound Physics Perfected"
+filename = "sound_physics_perfected-1.17.0-alpha+1.20.1-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/KS6Hbu9Z/versions/zwC4GkwI/sound_physics_perfected-1.17.0-alpha%2B1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "8afd2f6307d3b0aca114ef896131a63375f2e9ff7e4f4d1477443ade13fe1fc1c1c44b57511f8ad749e4368e5c79a13398c62ddaef4e9de69e9928214b55df13"
+
+[update]
+[update.modrinth]
+mod-id = "KS6Hbu9Z"
+version = "zwC4GkwI"

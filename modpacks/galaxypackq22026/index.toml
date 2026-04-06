@@ -711,6 +711,11 @@ hash = "9e74cd2a53e0546dc82d016c1fa6fa4bbf70e562fb1ffcf8a69855cb998ecb51"
 metafile = true
 
 [[files]]
+file = "mods/lexiconfig.pw.toml"
+hash = "471f6366615d29246e35c3193359ea479925ad98eb2beb1d59f0647f9896df3d"
+metafile = true
+
+[[files]]
 file = "mods/little-logistics.pw.toml"
 hash = "d96ffbfb771b81f3c66e67f10479e27b43896b070ef3e78d5e3f8a6c6f3085cf"
 metafile = true
@@ -1091,8 +1096,8 @@ hash = "007044654cd508bbf0335fd102dabf21ab3cb332f8c2cd11f022c9d781926511"
 metafile = true
 
 [[files]]
-file = "mods/sound-physics-remastered.pw.toml"
-hash = "416bb6449da951ec1a04156348c502b9e47a947212becc173d277faaddaaaccd"
+file = "mods/sound-physics-perfected.pw.toml"
+hash = "74ce4e5eca74857bffc3bb753de46039cb93749095cb088a7d94bf8160ac920c"
 metafile = true
 
 [[files]]
@@ -1183,6 +1188,11 @@ metafile = true
 [[files]]
 file = "mods/vesture.pw.toml"
 hash = "11be3bbe429a4dcf41c68d3c3a031592c840109ee4e9cce9fc391650ef149eea"
+metafile = true
+
+[[files]]
+file = "mods/vibrative-voice.pw.toml"
+hash = "5194dedc1d09130cf3635ea8f32e8d95ce0615d08d9c60006ec94e512a01eb46"
 metafile = true
 
 [[files]]
