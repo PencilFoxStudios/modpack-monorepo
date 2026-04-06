@@ -1,2 +1,8 @@
 type = user_variables
 
+variable {
+  name = smp_online
+  value = true
+  reset_on_launch = false
+}
+

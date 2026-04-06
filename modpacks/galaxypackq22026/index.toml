@@ -94,7 +94,7 @@ hash = "f01c6c7ea4a1fff537be3149d6e46bafa4f56c31f460edf5a482cf62e8f6d82c"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "59b3bfb695dbecc7d68d37fc3720cfc0b403c2c25bcf81988d4466b6c3290103"
+hash = "0ae65bc84a40bf733be98d1d880524bd70badedc2619ce40545d8298bd4b2f0c"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -106,7 +106,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "711010cdf6e2356bf88fc3b4ccbc42a74318f6e889ca2f528904814af19ea6f3"
+hash = "143a0ee66d03b2e9e1f4487c29b5e6c21b2abf9164881e68e2a9f00e85547046"
 
 [[files]]
 file = "config/fancymenu/panoramas/mypanorama/panorama/panorama_0.png"
@@ -146,7 +146,7 @@ hash = "3fcfc5f9957fbb86aea846c9ad49a24f47ca709c523c4018b584668e38b72f41"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
-hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+hash = "999d1792fa96be71b3195deccd2d7ecbda1e09483355852f5b1d1399c6fcb89f"
 
 [[files]]
 file = "config/oculus.properties"
@@ -1092,11 +1092,6 @@ metafile = true
 [[files]]
 file = "mods/panda-plushies.pw.toml"
 hash = "3547838188769fe2f31f2787ae21f8e55d3b3e3386f53c8559dffda1ae4405c1"
-metafile = true
-
-[[files]]
-file = "mods/particle-rain.pw.toml"
-hash = "b32ac7f1baee0d56e17910124aa2f38c2401d7b2fe73ee4a2edaa59fce869e73"
 metafile = true
 
 [[files]]
