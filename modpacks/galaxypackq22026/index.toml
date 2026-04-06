@@ -6,15 +6,15 @@ hash = "7b8a26d4877eb38e2edc5b1815a5fa2a1fcb1a40668fb0957a80027c2178b533"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "f6f6ab47ed418cdcb98ce39c97573a50390e48f40974b569e559bc80060d975a"
+hash = "0abc8c3f37f0d32212c0009d6b2eeb5394dd58c8525fa9dd652745c8bdea6746"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "9f76ccf30bcdb490f716521e0b34570c0ec5f8ba722bd9234586ab76dbefbae8"
+hash = "9e3a6734a490ac75ca33aadc0288b4bb2370fea29249d7e2542cbf583a207895"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
-hash = "34fd5c19c1c8f2a9d2617c427c92fb82a426fe25a404b6397d8b8f325cbeeb09"
+hash = "b1f0519b2afda6521294ec8dcda37ef189e42e3f97211888980acf79f4a67d36"
 
 [[files]]
 file = "config/drippyloadingscreen/options.txt"
@@ -2120,6 +2120,10 @@ hash = "51643361c79ecaef25a8de802de24f570ba25d9c2df1d22d94fade11b4f466cc"
 [[files]]
 file = "saves/Test World/stats/f05375c2-ab19-43bc-8093-6d9d57c17aa3.json"
 hash = "5104be4f5d3509a6cbe146ed9b1f628a95ad8f12d7686be5cc1ccbe19c546713"
+
+[[files]]
+file = "shaderpacks/Solas Shader V3.5.zip.txt"
+hash = "d7bc4add208466533cd0f3d4fc9ee45795d96f1732a2043d99203651408dfee6"
 
 [[files]]
 file = "shaderpacks/solas-shader.pw.toml"
