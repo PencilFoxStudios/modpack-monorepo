@@ -1,0 +1,13 @@
+name = "MoreCosmetics+"
+filename = "MoreCosmetics 1.20.1 - v1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mPuH5m3Y/versions/O3iu2rCY/MoreCosmetics%201.20.1%20-%20v1.jar"
+hash-format = "sha512"
+hash = "7ea574a81dfbaab8cd7b03fb25af9f8367b6c57094b96caf56d5c74ec4e34f2612f53bb0280f30a4f17cc2da20b4c5e7ae2c8deb2a4dbb95340ae90d91219838"
+
+[update]
+[update.modrinth]
+mod-id = "mPuH5m3Y"
+version = "O3iu2rCY"
