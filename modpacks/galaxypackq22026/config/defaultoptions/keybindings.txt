@@ -148,7 +148,7 @@ key_key.carry.desc:key.keyboard.left.shift:NONE
 key_mapfrontiers.key.open_settings:key.keyboard.f8:NONE
 key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt:NONE
 key_key.tacz.inspect.desc:key.keyboard.h:NONE
-key_key.tacz.reload.desc:key.keyboard.keypad.7:NONE
+key_key.tacz.reload.desc:key.keyboard.r:NONE
 key_key.tacz.shoot.desc:key.mouse.left:NONE
 key_key.tacz.interact.desc:key.keyboard.o:NONE
 key_key.tacz.fire_select.desc:key.keyboard.g:NONE
