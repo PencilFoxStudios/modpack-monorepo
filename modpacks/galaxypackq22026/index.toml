@@ -308,11 +308,6 @@ hash = "28358fe53c22695b3bf1f93ac2225c46fe3525918b7b993ac36e68a7f0a16fe8"
 metafile = true
 
 [[files]]
-file = "mods/blasttravelreborn.pw.toml"
-hash = "b18bc20dcd9c87ad2de0db551e7ec5ad02f017b6183b18485b7bb4fcf206ac8e"
-metafile = true
-
-[[files]]
 file = "mods/bluemap.pw.toml"
 hash = "55ab212ba17d188a2f95b65d4cf63bbc98c664aa74986b57d288d12e62bac780"
 metafile = true
