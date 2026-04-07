@@ -643,11 +643,6 @@ hash = "5b2e5f9c6fe121b43c918b80b5c9572bf7fa7a91464b00b19e2dd3bb5c1bbd11"
 metafile = true
 
 [[files]]
-file = "mods/dragonlib.pw.toml"
-hash = "12db3d6e29517b77424cf25fa1f5a491bbe9af31902af9aa70536070e31c8693"
-metafile = true
-
-[[files]]
 file = "mods/drippy-loading-screen.pw.toml"
 hash = "e0d378e3a1c413c67634413187f138838e198df51d3481d77216747bd6d9d2da"
 metafile = true
@@ -1469,7 +1464,7 @@ metafile = true
 
 [[files]]
 file = "mods/unionlib.pw.toml"
-hash = "094859ffd2d175d811fb0c6ef3dcf1ae2e265c4751298d012fcdebe84a5d296e"
+hash = "3b6b8c600b582f2d9aab2e281e4678908bbd1e7bf9dc94edbac1da4f1b81a0ba"
 metafile = true
 
 [[files]]
