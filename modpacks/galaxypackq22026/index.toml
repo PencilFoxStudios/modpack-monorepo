@@ -370,11 +370,6 @@ hash = "81b4a182487cdeb22bfd608a69bc7de5af7784307ee2d41f3439f9963c565921"
 metafile = true
 
 [[files]]
-file = "mods/continuity.pw.toml"
-hash = "8cea6a7ec6b151f92a3a62261530bb1aefe173ad19840c0319aa10e0d8ab2386"
-metafile = true
-
-[[files]]
 file = "mods/controlling.pw.toml"
 hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
 metafile = true
@@ -1297,11 +1292,6 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "974af7bd8b20941d615aa6d37f522da34f62d81ddee97ccfad3c458b5db8ece5"
-metafile = true
-
-[[files]]
-file = "mods/surveyor.pw.toml"
-hash = "4364997b22f287f2a6082d4f405c30c7f93e918b944550316e03630c916a7c64"
 metafile = true
 
 [[files]]
