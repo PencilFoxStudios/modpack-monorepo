@@ -157,6 +157,26 @@ file = "config/oculus.properties"
 hash = "21dbb7bc071ae25ba6bf48d946984b3487622d1e5490e3f76252b142fa11c0fa"
 
 [[files]]
+file = "config/subtle_effects/blocks.toml"
+hash = "f485d3ea173db3d177d3b443b4179a13c9ad70d2fffd17c9169a32fdb5c339f3"
+
+[[files]]
+file = "config/subtle_effects/entities.toml"
+hash = "0839b788461ce58e2b973f881dcf2db137477d06e93e0e3f1dd61441cdf84f56"
+
+[[files]]
+file = "config/subtle_effects/environment.toml"
+hash = "2ee2918575611ae2fca4d3be651b71285fc78484de74d9877f6c33fd84b32dc0"
+
+[[files]]
+file = "config/subtle_effects/general.toml"
+hash = "cabc3198650182b8d282c08091acbe4f5d3fecab03d2484aefb88f1eb6112d0e"
+
+[[files]]
+file = "config/subtle_effects/items.toml"
+hash = "af2430d7275230c95137779d11c87332517e81c67e8ce2a99847dbdd49009569"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
@@ -182,7 +202,7 @@ hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
 
 [[files]]
 file = "kubejs/server_scripts/size_command.js"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+hash = "284d64dd9ef8117beb646798106c1412e296bff025d88a176a3b67daf2f84570"
 
 [[files]]
 file = "kubejs/startup_scripts/eat_moss.js"
