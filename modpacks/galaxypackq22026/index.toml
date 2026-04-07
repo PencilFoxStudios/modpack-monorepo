@@ -10,7 +10,7 @@ hash = "b60e5c35dc6ef6f5f7ca9dcb8b8e09f2741d0afae23fea2350e608693122c377"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "0abc8c3f37f0d32212c0009d6b2eeb5394dd58c8525fa9dd652745c8bdea6746"
+hash = "faac90116d7fbd7018034562a3ea32fddc397cf16a74719445960149d3165b25"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -367,16 +367,6 @@ metafile = true
 [[files]]
 file = "mods/computer-cartographer.pw.toml"
 hash = "81b4a182487cdeb22bfd608a69bc7de5af7784307ee2d41f3439f9963c565921"
-metafile = true
-
-[[files]]
-file = "mods/connector-extras.pw.toml"
-hash = "ccc22ae710d22b2c8e8851c5968f85d32bac9f40ee7ded717df78cbe0cc8dae3"
-metafile = true
-
-[[files]]
-file = "mods/connector.pw.toml"
-hash = "68a935746aad424891dcb36fa705cdafd652ea1170ecb8144b1db0c87e30297b"
 metafile = true
 
 [[files]]
