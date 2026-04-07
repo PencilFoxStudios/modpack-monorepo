@@ -1,13 +1,13 @@
 name = "DragNSounds API"
-filename = "dragnsounds-forge-1.20.1-beta-0.2.1.jar"
+filename = "dragnsounds-forge-1.20.1-alpha-0.2.2-1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/apgVYbxQ/versions/nEnnVoDC/dragnsounds-forge-1.20.1-beta-0.2.1.jar"
+url = "https://cdn.modrinth.com/data/apgVYbxQ/versions/VP9DHozL/dragnsounds-forge-1.20.1-alpha-0.2.2-1.jar"
 hash-format = "sha512"
-hash = "a2eb7dde63815075db0f58905b9ad908f5721c21d64acd92fdd7649867dff31edbcdf49ee604a0d90ddb7f2e8e584759f1635f23e7f1752b3d9da74f37b49483"
+hash = "e84b6d3e4a2d620e2ebbe0ce65b49e0b1a36ec17bef065a972221099882b106e60542cad1417a8a86aa6c650d7f0cf7a6f981a1d0a132c0a54b0b4630b620539"
 
 [update]
 [update.modrinth]
 mod-id = "apgVYbxQ"
-version = "nEnnVoDC"
+version = "VP9DHozL"
