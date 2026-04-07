@@ -370,6 +370,11 @@ hash = "81b4a182487cdeb22bfd608a69bc7de5af7784307ee2d41f3439f9963c565921"
 metafile = true
 
 [[files]]
+file = "mods/controllermod.pw.toml"
+hash = "4b694863928a388e1d730f1d03e1da3ca05e1fb0b5bea40ed071a4eb101c957d"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
 metafile = true
@@ -1442,6 +1447,11 @@ metafile = true
 [[files]]
 file = "mods/trenzalore.pw.toml"
 hash = "c66abcf408ad2d6ffe3fe7b2db9fc08ec2540896011047a58394d467669eef9c"
+metafile = true
+
+[[files]]
+file = "mods/unionlib.pw.toml"
+hash = "094859ffd2d175d811fb0c6ef3dcf1ae2e265c4751298d012fcdebe84a5d296e"
 metafile = true
 
 [[files]]

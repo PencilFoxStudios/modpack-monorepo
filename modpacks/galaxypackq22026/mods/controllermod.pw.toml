@@ -1,0 +1,13 @@
+name = "Controller Support Mod"
+filename = "Controller Support-1.20.1-9.0.3-Forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/2emUKbOT/versions/l9dUTA5l/Controller%20Support-1.20.1-9.0.3-Forge.jar"
+hash-format = "sha512"
+hash = "3d8ac8cd9d8366b12c710fcf08c6891bcc906c992cc8d659a6ba1077abb29fd851e91385f2dd64b3fc5d136793e0301e4d822128e726608857fbe79f35363ec8"
+
+[update]
+[update.modrinth]
+mod-id = "2emUKbOT"
+version = "l9dUTA5l"
