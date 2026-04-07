@@ -453,11 +453,6 @@ hash = "87be52b8aaa9864eab1ec2df8c862cd01a084989b07c4cdbfaa21c57a9a778a6"
 metafile = true
 
 [[files]]
-file = "mods/create-design-n-decor.pw.toml"
-hash = "db975ac6f7723fa6230f64ce45b0986774437c4429237f62299e3de71b32b372"
-metafile = true
-
-[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "c670ae9055f10dafb61fe340583c361f4c41ed45671c9440bae1f0696b47252a"
 metafile = true
@@ -570,11 +565,6 @@ metafile = true
 [[files]]
 file = "mods/create-train-lights.pw.toml"
 hash = "33c0f8f06605ccb455364420f0b754ff7526d411e82f28bea23bac7c409876c7"
-metafile = true
-
-[[files]]
-file = "mods/create-tram-additions.pw.toml"
-hash = "c8e076c4433450dfd403339dd8883298ce36c26fa8265f40bf8a4d597791a3bf"
 metafile = true
 
 [[files]]
@@ -1105,11 +1095,6 @@ metafile = true
 [[files]]
 file = "mods/modelfix.pw.toml"
 hash = "ab170eabaeec3e80c59e850a7d8aee32edfffd6a1e40e2c2f44575c69d122054"
-metafile = true
-
-[[files]]
-file = "mods/modern-train-parts.pw.toml"
-hash = "15d8ae7a30934b8767663c422fa5c59cf964fd94203345f8577a8087f07d3bf5"
 metafile = true
 
 [[files]]
