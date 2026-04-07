@@ -1464,7 +1464,7 @@ metafile = true
 
 [[files]]
 file = "mods/unionlib.pw.toml"
-hash = "094859ffd2d175d811fb0c6ef3dcf1ae2e265c4751298d012fcdebe84a5d296e"
+hash = "3b6b8c600b582f2d9aab2e281e4678908bbd1e7bf9dc94edbac1da4f1b81a0ba"
 metafile = true
 
 [[files]]
