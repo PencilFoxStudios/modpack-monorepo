@@ -506,7 +506,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-railways-navigator.pw.toml"
-hash = "11b63148016d37d853c9cc4de936a8fbd90d4d8ca1c27b6af18c213346fab9e2"
+hash = "0a83106a7aca1d1a36a5ebc45bd69bb11a03eed73c1eeda5f2ee5c5697ce9b78"
 metafile = true
 
 [[files]]
@@ -626,7 +626,7 @@ metafile = true
 
 [[files]]
 file = "mods/dragnsounds-api.pw.toml"
-hash = "98ddb10bcf3e3a77a1f5d9c67abaef028b2cf764fac772751c2430bb24445f46"
+hash = "5b2e5f9c6fe121b43c918b80b5c9572bf7fa7a91464b00b19e2dd3bb5c1bbd11"
 metafile = true
 
 [[files]]
