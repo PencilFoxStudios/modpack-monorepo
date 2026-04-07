@@ -533,7 +533,7 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
-}
+} 
 
 element {
   interactable = true
