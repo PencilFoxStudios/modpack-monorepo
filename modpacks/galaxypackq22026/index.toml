@@ -193,11 +193,6 @@ file = "kubejs/startup_scripts/example.js"
 hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
 
 [[files]]
-file = "mods/accessories.pw.toml"
-hash = "3b4408ce2399f0ce9bab2243f3255c73d26f4113bc2438974ca47267ef9df7ea"
-metafile = true
-
-[[files]]
 file = "mods/ad-astra-more-structures.pw.toml"
 hash = "8fae63f13fc095d7b1ba4572321fc67196516c521c7e31d39c69b53388a8106b"
 metafile = true
