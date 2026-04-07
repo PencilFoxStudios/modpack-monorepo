@@ -567,11 +567,6 @@ hash = "3c7aa1e213def089a6eaa89a8c4c51eade5ae89e1a674c03181a46690c340764"
 metafile = true
 
 [[files]]
-file = "mods/create-track-map.pw.toml"
-hash = "63f2413981be629df9c32e5549e06cf097078bf8ce0bd8c3bfe16de7ca0a18c2"
-metafile = true
-
-[[files]]
 file = "mods/create-train-announcer.pw.toml"
 hash = "e36be9884a2b60dc8652ee96fa05d1c04f28987e205a039215951070f6818928"
 metafile = true
