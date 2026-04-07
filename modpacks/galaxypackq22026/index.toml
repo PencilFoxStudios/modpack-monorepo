@@ -834,7 +834,7 @@ metafile = true
 
 [[files]]
 file = "mods/hypertube.pw.toml"
-hash = "16a85cfc9a6659a686659332624533d3db38d5b3c2e80105fb8aef91eeb8aac9"
+hash = "296754fb71a9d02cacc9f1baf3efb1bd8c2405fa3ad7cd2710a32ad8e3a53a53"
 metafile = true
 
 [[files]]
