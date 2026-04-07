@@ -90,15 +90,19 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
+hash = "f2874636c89aeb8c1942a4b5b3b6dde515e88cd37862f0a0a463ac06ea0db505"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
 hash = "f01c6c7ea4a1fff537be3149d6e46bafa4f56c31f460edf5a482cf62e8f6d82c"
 
 [[files]]
+file = "config/fancymenu/customization/pause_screen_layout.txt"
+hash = "9a589dcfc528220aaed44578e2206856b752413e0899ab9b59a15d0ff1bc5b75"
+
+[[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "0ae65bc84a40bf733be98d1d880524bd70badedc2619ce40545d8298bd4b2f0c"
+hash = "07ed188c7746a19c445288c2355dd67f0ecd1df659ef0d167d0e40a10889eb44"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -150,7 +154,7 @@ hash = "3fcfc5f9957fbb86aea846c9ad49a24f47ca709c523c4018b584668e38b72f41"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
-hash = "999d1792fa96be71b3195deccd2d7ecbda1e09483355852f5b1d1399c6fcb89f"
+hash = "e563a4eaec6f1804b24bcfe42fc52d442442ce92023e27a9bf1f4bb0e6d5042e"
 
 [[files]]
 file = "config/oculus.properties"
@@ -162,7 +166,7 @@ hash = "f485d3ea173db3d177d3b443b4179a13c9ad70d2fffd17c9169a32fdb5c339f3"
 
 [[files]]
 file = "config/subtle_effects/entities.toml"
-hash = "0839b788461ce58e2b973f881dcf2db137477d06e93e0e3f1dd61441cdf84f56"
+hash = "a0a29ad54605d11cad66c8548c17c2fed9dec71c57c207527c0cb53cd6ab32d3"
 
 [[files]]
 file = "config/subtle_effects/environment.toml"
@@ -202,7 +206,7 @@ hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
 
 [[files]]
 file = "kubejs/server_scripts/size_command.js"
-hash = "284d64dd9ef8117beb646798106c1412e296bff025d88a176a3b67daf2f84570"
+hash = "b1bb473e59f09186fa803faccc890d4bc2754930d95da2f32cc21a0e06f7f8df"
 
 [[files]]
 file = "kubejs/startup_scripts/eat_moss.js"

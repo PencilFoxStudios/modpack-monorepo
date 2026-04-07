@@ -1,16 +1,35 @@
 ServerEvents.commandRegistry(event => {
-    // Create a new command called /setsize [size (0.7-2.0)]
-    event.register('setsize', (args, player) => {
-        // // Get the size argument as a number
-        // const size = parseFloat(args[0])
-        // // Check if the size is valid
-        // if (isNaN(size) || size < 0.7 || size > 2.0) {
-        //     player.tell('Please provide a valid size between 0.7 and 2.0')
-        //     return
-        // }
-        // // Set the player's size using Pehkui's API
-        // event.server.runCommand
-        // player.tell(`Your size has been set to ${size}`)
-    }
-    )
+  const { commands: Commands, arguments: Arguments } = event
+
+  event.register(
+    Commands.literal('setsize')
+      .then(
+        Commands.argument('size', Arguments.FLOAT.create(event))
+          .executes(ctx => {
+            const player = ctx.source.player
+            const size = Arguments.FLOAT.getResult(ctx, 'size')
+
+            // restrict size to a reasonable range (0.7 to 2.0)
+            if (size < 0.6 || size > 2.0) {
+                player.displayClientMessage(
+                Component.red("Size must be between 0.7 and 2.0"),
+                true
+              )
+              return 1;
+            }
+
+            // Run Pehkui command as server
+            ctx.source.server.runCommandSilent(
+              `scale set pehkui:base ${size} ${player.username}`
+            )
+
+            player.displayClientMessage(
+              Component.green(`Size set to ${size}`),
+              true
+            )
+
+            return 1
+          })
+      )
+  )
 })
