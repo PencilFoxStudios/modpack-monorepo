@@ -1155,11 +1155,6 @@ hash = "d83c43aa5cd92ee3427f79fcf1d4e4ecf763972aa4a9ea6eac87d865c2fe955f"
 metafile = true
 
 [[files]]
-file = "mods/reforgedplay-mod.pw.toml"
-hash = "63462b29d29a134ac5516fab73e0552d0c0bbc4bfe23fd84545babb7760155ba"
-metafile = true
-
-[[files]]
 file = "mods/regions-unexplored.pw.toml"
 hash = "cc64ca541c4710726dc3fa4b283b1260cfb2d3ff8d1784f80e0180d248c35688"
 metafile = true
