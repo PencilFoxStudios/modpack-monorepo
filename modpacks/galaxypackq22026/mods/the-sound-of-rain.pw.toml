@@ -1,13 +1,13 @@
 name = "The Sound of Rain"
-filename = "soundofrain-0.5.0.jar"
+filename = "soundofrain-0.6.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/8GRDQ9XB/versions/YpcXzDGl/soundofrain-0.5.0.jar"
+url = "https://cdn.modrinth.com/data/8GRDQ9XB/versions/caWxRbWX/soundofrain-0.6.0.jar"
 hash-format = "sha512"
-hash = "b1c3441219caedc7e878153937d69c3fc5c7b86b8b259b56fe16bbfb96262b7c8a2e849136d89c795b9b707528d7d82707f4a353ce056a2b1ab1d24b98594df6"
+hash = "e56f0355ed267bf2777932fefefba9f63a83238260c294beaaaf7d49d9789dbd8167917d8491e574cf33e210d3ec4ebda66f622d210a485684b538d8feaf3410"
 
 [update]
 [update.modrinth]
 mod-id = "8GRDQ9XB"
-version = "YpcXzDGl"
+version = "caWxRbWX"

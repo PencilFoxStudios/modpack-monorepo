@@ -1,13 +1,13 @@
 name = "UnionLib"
-filename = "UnionLib-1.20.1-10.2.7-Forge.jar"
+filename = "UnionLib-1.20.1-12.2-Forge-all.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/EkkPwdCY/versions/x5FjXoS2/UnionLib-1.20.1-10.2.7-Forge.jar"
+url = "https://cdn.modrinth.com/data/EkkPwdCY/versions/7UFK0RCj/UnionLib-1.20.1-12.2-Forge-all.jar"
 hash-format = "sha512"
-hash = "a80e3200aa5434111d459efc82887d861936a943913b5835f8d9db5a41025296e28011b5d71cd8eab72500231b9b029bbea1549753d6ae5a27c8edf489e05c87"
+hash = "66818c2652a325f47bffe44011649e2a4caceb352f56279a170203cbffd2cb2a8712f623baeda93de1b9d7fd8f6440b240965804818dc2c56e1f7bd3b2991c3e"
 
 [update]
 [update.modrinth]
 mod-id = "EkkPwdCY"
-version = "x5FjXoS2"
+version = "7UFK0RCj"
