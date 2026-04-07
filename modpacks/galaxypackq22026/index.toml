@@ -307,11 +307,6 @@ hash = "fec49033058ced91f7668d4e305e599f5527501ef37c1f30f96d8927d6202d32"
 metafile = true
 
 [[files]]
-file = "mods/bclib-forge.pw.toml"
-hash = "19bbf6f52dddabdd5ce1024f5bbf69e8123e419bc27b71bd89343dc9435e8908"
-metafile = true
-
-[[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "126db1f1ec01bbc4cf3393e087363e2fdbfe4a3face897ed27985b14a1a519a9"
 metafile = true
@@ -319,11 +314,6 @@ metafile = true
 [[files]]
 file = "mods/better-advancements.pw.toml"
 hash = "6d369d90dac6730c6faa243bf73d00d9945e2a932c9c031eb7619d979eaebe8d"
-metafile = true
-
-[[files]]
-file = "mods/betterend-forge.pw.toml"
-hash = "8550aeb78e4c3422d392e3ad700bd2ebd34b997f976df0f2a9c4f82aac533bc6"
 metafile = true
 
 [[files]]
