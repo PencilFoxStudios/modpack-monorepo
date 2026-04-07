@@ -478,11 +478,6 @@ hash = "428fc7b2b1741bee34366a3ba6604e14a4cb93ed6f10a25242502518b342ced7"
 metafile = true
 
 [[files]]
-file = "mods/create-extended-signals.pw.toml"
-hash = "fea3ed043303cd84b85bf5c0df6a6062ac107f1d39c72bb3eadd5ef47fdfc8b3"
-metafile = true
-
-[[files]]
 file = "mods/create-foxs-wings.pw.toml"
 hash = "728d6b81d0853de35bb072f3f1f0cdbf3c29b6a6320c3a8023f9b2fc4a130734"
 metafile = true
