@@ -1,6 +1,6 @@
 name = "Create Advanced Schedules"
 filename = "createadvancedschedules-1.1.1.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/KGBOhqwY/versions/wxZdksMa/createadvancedschedules-1.1.1.jar"

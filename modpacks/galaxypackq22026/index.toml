@@ -443,7 +443,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-advanced-schedules.pw.toml"
-hash = "18ad7fd18aca17fff7a70bc207493abaee7822e9b1e313c4a5950883865b4b8c"
+hash = "fd88e60882c339c5af06e4f7b4f915eeb846696986c0c2077a48ecae11922360"
 metafile = true
 
 [[files]]
