@@ -1448,11 +1448,6 @@ hash = "973388a9461c0012eb1c13d5868d37c4ad310b54900f8ab42f507bf159f399c2"
 metafile = true
 
 [[files]]
-file = "mods/trafficcraft.pw.toml"
-hash = "4d6e6d9ed9ce09de9f2bd42183562e65fb2fbd37a30e4b5d6c164c1007215cd1"
-metafile = true
-
-[[files]]
 file = "mods/trash-cans.pw.toml"
 hash = "4a8a42c4c7834873a5f64f0f4e07eb46056329b345a1b835d8ea0aff2390fc0e"
 metafile = true
