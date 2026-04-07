@@ -1,0 +1,13 @@
+name = "Create: Train Announcer"
+filename = "create_train_announcer-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1kn34iDs/versions/Qgsb4LSC/create_train_announcer-1.0.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "5c2d846c5567a03b0e190a465e633abff29309d32f03b9e07ea7d4bf349a219f64c971273e3083bb550fbd9e82824135ffcb4da80a315253d9aea5e590acce67"
+
+[update]
+[update.modrinth]
+mod-id = "1kn34iDs"
+version = "Qgsb4LSC"

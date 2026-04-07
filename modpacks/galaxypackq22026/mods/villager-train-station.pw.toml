@@ -1,0 +1,13 @@
+name = "Villager Train Station"
+filename = "villager_train_station-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/feRkYoBA/versions/JJiFOzkS/villager_train_station-1.0.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "16326e8eed2b0fa4a858cb16dc01bfeedc57495aa20d2253f9af527c8680363694cf9f105386c9aa275fa689a414574914a13de440fff0848fa22e30d60152ca"
+
+[update]
+[update.modrinth]
+mod-id = "feRkYoBA"
+version = "JJiFOzkS"

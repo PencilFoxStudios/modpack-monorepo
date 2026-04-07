@@ -1,0 +1,13 @@
+name = "Create Advanced Schedules"
+filename = "createadvancedschedules-1.1.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/KGBOhqwY/versions/wxZdksMa/createadvancedschedules-1.1.1.jar"
+hash-format = "sha512"
+hash = "bbbbb37a6b96ff7e37d625ac14cc9d0c5897254b272e7046c3e2b5fff100dc7bab494391ebb0b5f1e35a5243ae18287290267de9477b3c43a6c2a052d983e6b4"
+
+[update]
+[update.modrinth]
+mod-id = "KGBOhqwY"
+version = "wxZdksMa"

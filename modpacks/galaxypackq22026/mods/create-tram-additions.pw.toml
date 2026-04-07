@@ -1,0 +1,13 @@
+name = "Create Tram Additions"
+filename = "tram_additions-forge-1.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qsGFRtpo/versions/ssYuCGi3/tram_additions-forge-1.7.jar"
+hash-format = "sha512"
+hash = "4f323cd343e98c327990dc72912b545a6867a45d57f2bc5afaf26c799862a96b7766eff6a77c934d42ffa81995cf233ceff949c4eaa5c3dffc1f805f7416ff94"
+
+[update]
+[update.modrinth]
+mod-id = "qsGFRtpo"
+version = "ssYuCGi3"

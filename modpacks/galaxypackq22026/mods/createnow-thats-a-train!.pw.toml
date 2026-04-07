@@ -1,0 +1,13 @@
+name = "Create:Now that's a train!"
+filename = "create_now_thats_a_train-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HZ0u7t46/versions/xkZ5p70H/create_now_thats_a_train-1.0.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "68037af475e2e533b786ffdea55f178431e2907df239482ea3784021c655befd14e4778f4dc4c40ae1ea89214796ecca3b3a5bc9b5f84c81c31c5ebc0cc0303d"
+
+[update]
+[update.modrinth]
+mod-id = "HZ0u7t46"
+version = "xkZ5p70H"

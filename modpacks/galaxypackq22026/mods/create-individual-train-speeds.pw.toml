@@ -1,0 +1,13 @@
+name = "Create: Individual Train Speeds"
+filename = "create_individual_train_speeds-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JvULbldl/versions/RFMm8hTx/create_individual_train_speeds-1.0.0.jar"
+hash-format = "sha512"
+hash = "bd4fa4850ff6c123295840b22fb2e38e6863b5161e788543e95261e6364e8e5cd62ba09e2df11a122f9cbb1b87538322c80e5e29a963f68b55f1e1936ed8c37f"
+
+[update]
+[update.modrinth]
+mod-id = "JvULbldl"
+version = "RFMm8hTx"
