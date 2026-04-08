@@ -210,7 +210,7 @@ hash = "b1bb473e59f09186fa803faccc890d4bc2754930d95da2f32cc21a0e06f7f8df"
 
 [[files]]
 file = "kubejs/startup_scripts/eat_moss.js"
-hash = "aeef1a31139487700fe55b8ff6338656884fa4c49c6a88a794ea31f194a3d4d3"
+hash = "255da21f6d8daaf0b4e41b8519aef0783e1960de5302845a26365ccc564b429c"
 
 [[files]]
 file = "kubejs/startup_scripts/example.js"
