@@ -82,7 +82,7 @@ hash = "394e9d6011333495de26619f2f6a79f78ff0a9a8bd52e9fd42e6d8cfc3867201"
 
 [[files]]
 file = "config/fancymenu/assets/splashtexts.txt"
-hash = "030201b932debd6f9a5eccd48fb04d15ee94f6fab1f37b69d6f3d35aadf9c6be"
+hash = "6116c5257f7828d780cc1c8eb293c8914c13b90f682fa656811d9939b241e721"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -210,7 +210,7 @@ hash = "b1bb473e59f09186fa803faccc890d4bc2754930d95da2f32cc21a0e06f7f8df"
 
 [[files]]
 file = "kubejs/startup_scripts/eat_moss.js"
-hash = "b301bb57bfb5ead33714f9078b73f9d0b9779a022729ad49f21442aa27d3fd57"
+hash = "aeef1a31139487700fe55b8ff6338656884fa4c49c6a88a794ea31f194a3d4d3"
 
 [[files]]
 file = "kubejs/startup_scripts/example.js"

@@ -1,7 +1,7 @@
 // kubejs/server_scripts/eat_moss.js
 
 function mossEffect(item) {
-  item.foodProperties = (food) => {
+  item.setFoodProperties = (food) => {
     food.hunger(2);
     food.saturation(0.2);
     food.alwaysEdible();
