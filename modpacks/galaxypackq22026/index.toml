@@ -277,6 +277,11 @@ hash = "793693a85f3c87d4e899ee0c58deabc53690bf5a70f17343f28fd5063ce8a1e1"
 metafile = true
 
 [[files]]
+file = "mods/applied-botanics.pw.toml"
+hash = "cde869fe985a80ba90251a40b6e247074bb1051b3362631d3ae5d795dab09699"
+metafile = true
+
+[[files]]
 file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
 hash = "36c1d9057db42df7c2573c8673bef9a2d6ac0c43599ee0f8209573bbd3dd3bcf"
 metafile = true
@@ -334,6 +339,11 @@ metafile = true
 [[files]]
 file = "mods/blueprint.pw.toml"
 hash = "90fc66d49d29c1b1a5b14c5d571d628c6853f7f0519b04e74e14399c75cd08c6"
+metafile = true
+
+[[files]]
+file = "mods/botania.pw.toml"
+hash = "95594ca0d16f96341b95c5c7ddf65b84f879a27985f1bf4b63ade8bbaddaf8a2"
 metafile = true
 
 [[files]]
@@ -1022,6 +1032,11 @@ hash = "4e9305c9c381d972097d6d59110b926b13990320e8b39ede9c5818abc646f790"
 metafile = true
 
 [[files]]
+file = "mods/lunar.pw.toml"
+hash = "da78818c312cd3e0c420d8894cb777ed83fb3d0c61d722e1e407686aaa08f15b"
+metafile = true
+
+[[files]]
 file = "mods/make_bubbles_pop.pw.toml"
 hash = "e0d14709c8d5b32a0ceade7c020ea4304f1900129c31c6ac2fe06ff75edb7265"
 metafile = true
@@ -1029,6 +1044,11 @@ metafile = true
 [[files]]
 file = "mods/man-of-many-planes.pw.toml"
 hash = "b482e3d990ca0981e6a9204436745869b77b4870ea9c5afa95e6301da1d871b6"
+metafile = true
+
+[[files]]
+file = "mods/mantle.pw.toml"
+hash = "fbe4c27d4b52ee8c1b01643ba07c18d265a07aaea2426e67c6f9a1a298ce6a12"
 metafile = true
 
 [[files]]
@@ -1434,6 +1454,16 @@ metafile = true
 [[files]]
 file = "mods/timeless-and-classics-zero.pw.toml"
 hash = "891ec8405ce974de61df5442e5cac4a83e13f422e2b08dd42f405568492d9006"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-construct.pw.toml"
+hash = "d976517d4d8951e9ee57ecdcdcb79a6c390614d595624b68287d945c2dcf9614"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-melting-the-aether.pw.toml"
+hash = "862787c871c2859c0cc0cf86a9687a7c4e0a7eabd34fb3dab9a81c833df912ad"
 metafile = true
 
 [[files]]

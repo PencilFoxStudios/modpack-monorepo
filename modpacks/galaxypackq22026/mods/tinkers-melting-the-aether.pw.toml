@@ -1,0 +1,13 @@
+name = "Tinkers' Melting: The Aether"
+filename = "Tinkers' Melting - The Aether.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1I4OVdwB/versions/przU9YsQ/Tinkers%27%20Melting%20-%20The%20Aether.zip"
+hash-format = "sha512"
+hash = "360a66fb30c9a6f5a70b807a22c32eb5eabbec35f9426070b1ff13f31056cb928ad491c9309d22ea04a843f7d83f77b0f3fbe56c0ef541b2bf3e372d7f35eed7"
+
+[update]
+[update.modrinth]
+mod-id = "1I4OVdwB"
+version = "przU9YsQ"
