@@ -402,6 +402,11 @@ hash = "68a935746aad424891dcb36fa705cdafd652ea1170ecb8144b1db0c87e30297b"
 metafile = true
 
 [[files]]
+file = "mods/continuity.pw.toml"
+hash = "8cea6a7ec6b151f92a3a62261530bb1aefe173ad19840c0319aa10e0d8ab2386"
+metafile = true
+
+[[files]]
 file = "mods/controllermod.pw.toml"
 hash = "4b694863928a388e1d730f1d03e1da3ca05e1fb0b5bea40ed071a4eb101c957d"
 metafile = true
