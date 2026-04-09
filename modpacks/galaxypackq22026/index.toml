@@ -1232,6 +1232,11 @@ hash = "d6fc0e5e0f7d718f17d38374dd7bcecc28fa7137283c1bf0d415f70516f8854d"
 metafile = true
 
 [[files]]
+file = "mods/ore-harvester.pw.toml"
+hash = "4512257d48b4685627b649ce88e1641b0b617c6fdc2fd997d359475d4fd46db3"
+metafile = true
+
+[[files]]
 file = "mods/panda-plushies.pw.toml"
 hash = "3547838188769fe2f31f2787ae21f8e55d3b3e3386f53c8559dffda1ae4405c1"
 metafile = true
