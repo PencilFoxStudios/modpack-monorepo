@@ -222,7 +222,7 @@ hash = "af2430d7275230c95137779d11c87332517e81c67e8ce2a99847dbdd49009569"
 
 [[files]]
 file = "kubejs/assets/kubejs/sounds.json"
-hash = "3fc661c7d42a65f7b0dda5015b5b2ddebb69fa03431b59bcd4636a8828c6f8a6"
+hash = "3510d7e381668852043c30fb85ce36d7bcda1a09682a16ee40fd16700da63f8e"
 
 [[files]]
 file = "kubejs/assets/kubejs/sounds/siren.ogg"
@@ -278,7 +278,7 @@ hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
 
 [[files]]
 file = "kubejs/startup_scripts/siren_replacement.js"
-hash = "68f171b3d9a250edbb788e4a79f86cd76719b32d83ce8a928f6824a26985d565"
+hash = "4be07be30e46784644fea01836b57ab18d977fb4eb3277dba9164ae8c4758c83"
 
 [[files]]
 file = "mods/ad-astra-more-structures.pw.toml"

@@ -2,15 +2,11 @@
   "siren": {
     "category": "block",
     "stream": true,
-    "sounds": [
-      "kubejs:siren"
-    ],
-    "space_asshole": {
-      "category": "music",
-      "stream": true,
-      "sounds": [
-        "kubejs:space_asshole"
-      ]
-    }
+    "sounds": ["kubejs:siren"]
+  },
+  "space_asshole": {
+    "category": "music",
+    "stream": true,
+    "sounds": ["kubejs:space_asshole"]
   }
 }

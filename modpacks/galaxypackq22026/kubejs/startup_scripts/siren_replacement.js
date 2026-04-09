@@ -4,9 +4,10 @@
 //     global.SoundEvent(event);
 //   },
 // );
-// StartupEvents.registry("sound_event", (event) => {
-//   event.create("siren");
-// });
+StartupEvents.registry("sound_event", (event) => {
+  event.create("siren");
+event.create("space_asshole");
+});
 // let sirenActive = false;
 // global.SoundEvent = (event) => {
 //   if (Client.player != null) {
