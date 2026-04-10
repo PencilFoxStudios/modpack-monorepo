@@ -1,0 +1,13 @@
+name = "CoffeeCraft"
+filename = "coffeecraft-1.20.1-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Q2nuGziu/versions/nHMWHDNU/coffeecraft-1.20.1-1.0.2.jar"
+hash-format = "sha512"
+hash = "48ed86757120b784d1d6dd597647bcf6df92fd0674c55185486b3d0d9e3c4fa13fad305cd1ba19db9e223db2d4a5654465fb7127f6942cd7731ea587bbac749a"
+
+[update]
+[update.modrinth]
+mod-id = "Q2nuGziu"
+version = "nHMWHDNU"

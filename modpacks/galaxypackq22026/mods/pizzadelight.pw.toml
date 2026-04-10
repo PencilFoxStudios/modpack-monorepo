@@ -1,0 +1,13 @@
+name = "Pizza Delight"
+filename = "pizzadelight-1.20.1-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6VTyLLiG/versions/3bKyMLgh/pizzadelight-1.20.1-1.0.2.jar"
+hash-format = "sha512"
+hash = "dc01853efb1d078d1612417fb8b17395bccb28e26ceaebb4f92ef54f35f82f9e6c00e5456afa6d75d4675424e87f2c0f6fead4de036a7917adb4b3455dc258b0"
+
+[update]
+[update.modrinth]
+mod-id = "6VTyLLiG"
+version = "3bKyMLgh"
