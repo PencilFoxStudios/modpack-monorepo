@@ -2,7 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "Changelog.md"
-hash = "d3122a6b829af62b38cb1406d7f6a18509b80b17dcc921057c513bd78f32008d"
+hash = "6e05ad67b62ea192f84a5d1e241ac29566d1ce8f124536bed61bced57f820413"
+
+[[files]]
+file = "commits_since_phantom_forgot_to_add_restart.txt"
+hash = "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
 
 [[files]]
 file = "config/SoundPhysicsPerfected.json5"
@@ -1226,6 +1230,11 @@ metafile = true
 [[files]]
 file = "mods/merequester.pw.toml"
 hash = "a296d62bf4cb1ad7561da54e76d61f8cba98b2d721efdb5bfac77022c33a10c7"
+metafile = true
+
+[[files]]
+file = "mods/mmmmmmmmmmmm.pw.toml"
+hash = "cb6a545e5739fc0e5df919fd60d729cb20634c9febd29b133eca4f172d90aa97"
 metafile = true
 
 [[files]]
