@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "Changelog.md"
+hash = "d3122a6b829af62b38cb1406d7f6a18509b80b17dcc921057c513bd78f32008d"
+
+[[files]]
 file = "config/SoundPhysicsPerfected.json5"
 hash = "7b8a26d4877eb38e2edc5b1815a5fa2a1fcb1a40668fb0957a80027c2178b533"
 
@@ -30,7 +34,7 @@ hash = "554523c76b63c6535a5f9ff7da71def6d35ad6b0f430a1d11c20e4ee8d940fce"
 
 [[files]]
 file = "config/Weather2/Storm.toml"
-hash = "c756e8c13e16d8e162dab46091b437dfad0d41d3f648dfa293a9fd8ea8e5e419"
+hash = "64af6ee67565354651d46c37ddf37c98319ab0f1dcf8a0cd52197fa5a10ae81f"
 
 [[files]]
 file = "config/Weather2/Tornado.toml"
@@ -263,6 +267,10 @@ hash = "f378df0cd7bfd92cd3cbbdcf9c7fa754ac56cff80001861d20971ad8354441e5"
 [[files]]
 file = "kubejs/server_scripts/example.js"
 hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
+
+[[files]]
+file = "kubejs/server_scripts/removed_recipes.js"
+hash = "796b79d3209b26faeedd54cfe336610a0c24c690f63e7e2932a7ed607eef9bda"
 
 [[files]]
 file = "kubejs/server_scripts/size_command.js"
