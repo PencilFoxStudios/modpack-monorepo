@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "Changelog.md"
-hash = "f343dbe49ce7eb72e1e24ade29212bd0e9d3a9afa6bb11b5f27d07b0a6438fed"
+hash = "c866a60d8046354ccba8189e9054815c7d770513d4fe509f93257b85fccff705"
 
 [[files]]
 file = "commits_since_phantom_forgot_to_add_restart.txt"
-hash = "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
+hash = "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683"
 
 [[files]]
 file = "config/SoundPhysicsPerfected.json5"
@@ -427,6 +427,11 @@ metafile = true
 [[files]]
 file = "mods/blueprint.pw.toml"
 hash = "e4dd036408727e9b5fd530bc5910851b4f6fed6b02d9f0174216664a02d25707"
+metafile = true
+
+[[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "ba71bdea2bb0e65eb53646a70e710a23bd711743aba3bc8ba1f2e1034f1cbc50"
 metafile = true
 
 [[files]]

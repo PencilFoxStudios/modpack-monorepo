@@ -23,3 +23,5 @@ Change log
 - Added Enchantment Descriptions (Shows what an enchant does in the description of the item it's on)
 ## 1.2.1 
 - Removed Enchant Reveal (Crash)
+## 1.2.2
+- Added Bookshelf-lib (Crash)
