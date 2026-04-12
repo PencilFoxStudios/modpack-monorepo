@@ -15,3 +15,10 @@ Change log
     - F5 = 20%
 ## 1.1.0
 - Added [MmmMmmMmmMmm](https://modrinth.com/mod/mmmmmmmmmmmm) (as per sandvich's request)
+## 1.2.0
+- Removed Ore Harvester
+- Added Vien Miner (allowing for arbitrary tools and blocks to be used in vien mining)
+  - Configured Vien Miner to work with create and it's addon's specific ore types (e.g Orchrum, Galena and Bauxite)
+- Added Enchant Reveal (Enchanting table shows exactly what you'll get) (as per N3on's request)
+- Added Enchantment Descriptions (Shows what an enchant does in the description of the item it's on)
+- 
