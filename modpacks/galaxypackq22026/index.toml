@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "Changelog.md"
-hash = "6e05ad67b62ea192f84a5d1e241ac29566d1ce8f124536bed61bced57f820413"
+hash = "f343dbe49ce7eb72e1e24ade29212bd0e9d3a9afa6bb11b5f27d07b0a6438fed"
 
 [[files]]
 file = "commits_since_phantom_forgot_to_add_restart.txt"
-hash = "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+hash = "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
 
 [[files]]
 file = "config/SoundPhysicsPerfected.json5"
@@ -430,11 +430,6 @@ hash = "e4dd036408727e9b5fd530bc5910851b4f6fed6b02d9f0174216664a02d25707"
 metafile = true
 
 [[files]]
-file = "mods/bookshelf-lib.pw.toml"
-hash = "ba71bdea2bb0e65eb53646a70e710a23bd711743aba3bc8ba1f2e1034f1cbc50"
-metafile = true
-
-[[files]]
 file = "mods/botania.pw.toml"
 hash = "95594ca0d16f96341b95c5c7ddf65b84f879a27985f1bf4b63ade8bbaddaf8a2"
 metafile = true
@@ -827,11 +822,6 @@ metafile = true
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "60c712cc541a109ebef9675bb441ef20d79eeee8b0395ee28e5e15cce2947223"
-metafile = true
-
-[[files]]
-file = "mods/enchantment-reveal.pw.toml"
-hash = "d722c510daec4dcc0978dedb9d3a69d488fdc9b476a3199d0821229152076c9c"
 metafile = true
 
 [[files]]

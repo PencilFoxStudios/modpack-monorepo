@@ -21,4 +21,5 @@ Change log
   - Configured Vien Miner to work with create and it's addon's specific ore types (e.g Orchrum, Galena and Bauxite)
 - Added Enchant Reveal (Enchanting table shows exactly what you'll get) (as per N3on's request)
 - Added Enchantment Descriptions (Shows what an enchant does in the description of the item it's on)
-- 
+## 1.2.1 
+- Removed Enchant Reveal (Crash)
