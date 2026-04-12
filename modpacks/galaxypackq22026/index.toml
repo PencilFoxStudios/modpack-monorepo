@@ -229,6 +229,18 @@ file = "config/subtle_effects/items.toml"
 hash = "af2430d7275230c95137779d11c87332517e81c67e8ce2a99847dbdd49009569"
 
 [[files]]
+file = "config/veinmining-client.toml"
+hash = "1516b40ca99aa02403451a662e2fd2914cfa90840a9c8240e2144417916f3f61"
+
+[[files]]
+file = "config/veinmining-common.toml"
+hash = "742431e47593b3c23cf2447d79e48813c63c3b1261105401f9d792ead59e6c6d"
+
+[[files]]
+file = "config/veinmining-server.toml"
+hash = "1613846f70f14e24b6608626536ddadee1a70c47c475153827ea8f3f746c1931"
+
+[[files]]
 file = "kubejs/assets/kubejs/sounds.json"
 hash = "3510d7e381668852043c30fb85ce36d7bcda1a09682a16ee40fd16700da63f8e"
 
@@ -415,6 +427,11 @@ metafile = true
 [[files]]
 file = "mods/blueprint.pw.toml"
 hash = "e4dd036408727e9b5fd530bc5910851b4f6fed6b02d9f0174216664a02d25707"
+metafile = true
+
+[[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "ba71bdea2bb0e65eb53646a70e710a23bd711743aba3bc8ba1f2e1034f1cbc50"
 metafile = true
 
 [[files]]
@@ -805,6 +822,16 @@ metafile = true
 [[files]]
 file = "mods/emitrades.pw.toml"
 hash = "128c70500c78937003b8e8c0d244f024dbaed670dd5db7920118a63523b792c8"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "60c712cc541a109ebef9675bb441ef20d79eeee8b0395ee28e5e15cce2947223"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-reveal.pw.toml"
+hash = "d722c510daec4dcc0978dedb9d3a69d488fdc9b476a3199d0821229152076c9c"
 metafile = true
 
 [[files]]
@@ -1348,11 +1375,6 @@ hash = "4d5cd849af8e48685e1e2de230542e1b2996cbf949bfba1a95b7a695997bf4ef"
 metafile = true
 
 [[files]]
-file = "mods/ore-harvester.pw.toml"
-hash = "4512257d48b4685627b649ce88e1641b0b617c6fdc2fd997d359475d4fd46db3"
-metafile = true
-
-[[files]]
 file = "mods/panda-plushies.pw.toml"
 hash = "355fcc0d83cf1601e895b3050f8852f515343b948f950c5073a06f402036d026"
 metafile = true
@@ -1640,6 +1662,11 @@ metafile = true
 [[files]]
 file = "mods/valkyrien-skies.pw.toml"
 hash = "27bfffee0f18c22de7d3443a8c9441b39a4ea6b66a0c21557689822df3df12b6"
+metafile = true
+
+[[files]]
+file = "mods/vein-mining.pw.toml"
+hash = "9995c722c5e91bfa41786168d0079ffd7dd885547995feca54e8790807886603"
 metafile = true
 
 [[files]]
