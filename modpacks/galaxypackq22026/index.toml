@@ -26,11 +26,11 @@ hash = "9ca0609a55e25e119a825890d4718d0fa464da28484b377e067d6c0c199b16a1"
 
 [[files]]
 file = "config/Weather2/Sand.toml"
-hash = "0e2647731c2b961e23aa0431026b8bf854a6e245f7802b4e7638f1f748c0ad35"
+hash = "d795e98ccb802d7b2ddd593eccfd79772abf1f0d9bc3504bdc2c651f317548af"
 
 [[files]]
 file = "config/Weather2/Snow.toml"
-hash = "8e8b8134b6e946c6ae726f5d3af7e8aeb1d2cfa946dba5b3f00fb7248d2651df"
+hash = "0f27adf051c727c699ad6efbba446b9e52be8955c76cdafa0638bbb961bfe1e7"
 
 [[files]]
 file = "config/Weather2/Sound.toml"
