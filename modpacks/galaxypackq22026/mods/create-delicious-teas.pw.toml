@@ -1,0 +1,13 @@
+name = "Create: delicious teas"
+filename = "createteas-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ps5RAuX2/versions/1Tn9JKdX/createteas-1.0.jar"
+hash-format = "sha512"
+hash = "f6adb72ca218d5dcd3b8beb6087d6e93bf5ea07615aba2819d4444a238e8630236fdcbfab6eb56128452b36ccc649fec6d98e5efed172d33b419f62939e110af"
+
+[update]
+[update.modrinth]
+mod-id = "Ps5RAuX2"
+version = "1Tn9JKdX"
