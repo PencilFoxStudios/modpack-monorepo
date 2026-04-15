@@ -1,13 +1,13 @@
 name = "CraftPresence"
-filename = "CraftPresence-2.4.3+1.20.1.jar"
+filename = "CraftPresence-2.7.1+1.20.1-forge.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/DFqQfIBR/versions/oIpViecx/CraftPresence-2.4.3%2B1.20.1.jar"
+url = "https://cdn.modrinth.com/data/DFqQfIBR/versions/GN126FvZ/CraftPresence-2.7.1%2B1.20.1-forge.jar"
 hash-format = "sha512"
-hash = "b11f9b49c80bf193c5324685bf40345117bab6dfc8afdbc59c015d08cd46736f0f3b3b36613bc1fd012549af2681c47c580f0b7398f7e34fe2dbe64c581a9ae0"
+hash = "6b39547c0d6990f2396926ff5e2a372afeda8d068581fcb858d9600ec8314174d1e70f3d120b52ce75acc15a9243a004143f8756b3335cbf07326bf9399beaa9"
 
 [update]
 [update.modrinth]
 mod-id = "DFqQfIBR"
-version = "oIpViecx"
+version = "GN126FvZ"

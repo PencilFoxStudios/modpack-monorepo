@@ -497,7 +497,7 @@ metafile = true
 
 [[files]]
 file = "mods/craftpresence.pw.toml"
-hash = "17a10532b2a12768f31f8bd209024312e6e224d01f87c8476704000b40d2334e"
+hash = "ad60b2437f32ccc86eb1ccad55f688a1744008660df2f80ff477dab098d47612"
 metafile = true
 
 [[files]]
@@ -1558,6 +1558,11 @@ metafile = true
 [[files]]
 file = "mods/trenzalore.pw.toml"
 hash = "c66abcf408ad2d6ffe3fe7b2db9fc08ec2540896011047a58394d467669eef9c"
+metafile = true
+
+[[files]]
+file = "mods/unilib.pw.toml"
+hash = "269c464f39adc82fd37712995be9d4d852da3e2bb0947425afda811e1fd4af48"
 metafile = true
 
 [[files]]
