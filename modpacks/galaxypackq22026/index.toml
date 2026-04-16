@@ -680,11 +680,6 @@ hash = "66bf2a2a06e915ebc25324b342fa9702c8cdd31783abb25e0a8322c94d562cbf"
 metafile = true
 
 [[files]]
-file = "mods/create-threaded-trains.pw.toml"
-hash = "c1ec1758e6a7a018b955dd627013c061243dc060c69dfd857684142fa2181cf2"
-metafile = true
-
-[[files]]
 file = "mods/create-train-announcer.pw.toml"
 hash = "e36be9884a2b60dc8652ee96fa05d1c04f28987e205a039215951070f6818928"
 metafile = true
