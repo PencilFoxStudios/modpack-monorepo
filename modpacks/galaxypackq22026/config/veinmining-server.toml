@@ -5,7 +5,7 @@ requiredDestroySpeed = 1.0
 requireCorrectTool = true
 #The maximum number of blocks to vein mine without the enchantment.
 #Range: 0 ~ 1000
-maxBlocksBase = 0
+maxBlocksBase = 25
 #The maximum number of blocks to vein mine per level of the enchantment.
 #Range: 1 ~ 1000
 maxBlocksPerLevel = 50
@@ -31,7 +31,7 @@ exhaustionMultiplier = 1.0
 #Allowed Values: CONFIG_LIST, ALL, ORES, ORES_LOGS, ORES_STONE, ORES_STONE_LOGS, NO_BLOCK_ENTITIES
 blocks = "CONFIG_LIST"
 #The blocks or block tags for vein mining if blocks is set to "CONFIG_LIST".
-blocksList = ["#c:ores", "#forge:ores", "create:crimsite", "minecraft:tuff", "create:scoria", "create:limestone", "create:scoria", "create:asurine", "create:veridium", "minecraft:dripstone", "tfmg:galena", "tfmg:bauxite", "create:scorchia", "minecraft:gravel", "minecraft:sand", "minecraft:clay", "minecraft:diorite", "minecraft:granite", "minecraft:andesite", "minecraft:calcite", "create:orchrum", "createnuclear:autunite", "tconstruct:earth_slime_crystal_block", "minecraft:amethyst_block"]
+blocksList = ["#c:ores", "#forge:ores", "create:crimsite", "minecraft:tuff", "create:scoria", "create:limestone", "create:scoria", "create:asurine", "create:veridium", "minecraft:dripstone_block", "tfmg:galena", "tfmg:bauxite", "create:scorchia", "minecraft:gravel", "minecraft:sand", "minecraft:clay", "minecraft:diorite", "minecraft:granite", "minecraft:andesite", "minecraft:calcite", "create:ochrum", "createnuclear:autunite", "create_new_age:thorium_ore", "tconstruct:earth_slime_crystal_block", "tconstruct:ender_slime_crystal_block", "tconstruct:ichor_slime_crystal_block", "tconstruct:sky_slime_crystal_block", "minecraft:amethyst_block", "spawn:reefstone"]
 #Determines if blocksList contains allowed blocks or denied blocks.
 #Allowed Values: ALLOW, DENY
 blocksListType = "ALLOW"

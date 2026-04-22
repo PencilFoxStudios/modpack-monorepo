@@ -14,7 +14,7 @@ hash = "a05bfc8be3a127696063cf45d705f251d2c04bc9a092f3c01f0464abda1fac57"
 
 [[files]]
 file = "config/Mekanism/additions.toml"
-hash = "4338312bb3adfdecfa567ccb08b8a303ebc2c2dfa4b203383fd3ed99afac2bb2"
+hash = "5e2a98493e711e865ba9c65ff357d1e4c391984fff3327daf807fb82434bb15a"
 
 [[files]]
 file = "config/Mekanism/client.toml"
@@ -270,7 +270,7 @@ hash = "e563a4eaec6f1804b24bcfe42fc52d442442ce92023e27a9bf1f4bb0e6d5042e"
 
 [[files]]
 file = "config/lunar-common.toml"
-hash = "e82fb8f0d181b55b9bcdb157ca56c1fc7fb4ed9afdd2b1e03a75ac30b51447af"
+hash = "64e73915879e19747f79fec33a430af980d7d69f5cee1e046d26e8553d34c1a0"
 
 [[files]]
 file = "config/oculus.properties"
@@ -302,11 +302,11 @@ hash = "1516b40ca99aa02403451a662e2fd2914cfa90840a9c8240e2144417916f3f61"
 
 [[files]]
 file = "config/veinmining-common.toml"
-hash = "742431e47593b3c23cf2447d79e48813c63c3b1261105401f9d792ead59e6c6d"
+hash = "d5475fd759cbed6350acfc7f981b75351589864dfa3ec16ff60b75ae78fb2688"
 
 [[files]]
 file = "config/veinmining-server.toml"
-hash = "1613846f70f14e24b6608626536ddadee1a70c47c475153827ea8f3f746c1931"
+hash = "916d99afccb544840fa98065eb3bd7b11e9872368101efc5bdce4f40fa04311a"
 
 [[files]]
 file = "kubejs/assets/kubejs/sounds.json"

@@ -22,13 +22,13 @@
 			shouldSpawn = true
 			#The multiplier for weight of baby creeper spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			weightPercentage = 0.5
+			weightPercentage = 0.35
 			#The multiplier for minimum group size of baby creeper spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			minSizePercentage = 0.5
+			minSizePercentage = 0.35
 			#The multiplier for maximum group size of baby creeper spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			maxSizePercentage = 0.5
+			maxSizePercentage = 0.35
 			#The multiplier for spawn cost per entity of baby creeper spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
 			spawnCostPerEntityPercentage = 1.0
@@ -43,7 +43,7 @@
 		#Config options regarding baby enderman.
 		[additions.spawning.baby-enderman]
 			#Enable the spawning of baby enderman. Think baby zombies.
-			shouldSpawn = true
+			shouldSpawn = false
 			#The multiplier for weight of baby enderman spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
 			weightPercentage = 0.5
@@ -70,13 +70,13 @@
 			shouldSpawn = true
 			#The multiplier for weight of baby skeleton spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			weightPercentage = 0.5
+			weightPercentage = 0.15
 			#The multiplier for minimum group size of baby skeleton spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			minSizePercentage = 0.5
+			minSizePercentage = 0.15
 			#The multiplier for maximum group size of baby skeleton spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			maxSizePercentage = 0.5
+			maxSizePercentage = 0.15
 			#The multiplier for spawn cost per entity of baby skeleton spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
 			spawnCostPerEntityPercentage = 1.0
@@ -94,13 +94,13 @@
 			shouldSpawn = true
 			#The multiplier for weight of baby stray spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			weightPercentage = 0.5
+			weightPercentage = 0.15
 			#The multiplier for minimum group size of baby stray spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			minSizePercentage = 0.5
+			minSizePercentage = 0.15
 			#The multiplier for maximum group size of baby stray spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			maxSizePercentage = 0.5
+			maxSizePercentage = 0.15
 			#The multiplier for spawn cost per entity of baby stray spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
 			spawnCostPerEntityPercentage = 1.0
@@ -118,13 +118,13 @@
 			shouldSpawn = true
 			#The multiplier for weight of baby wither skeleton spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			weightPercentage = 0.5
+			weightPercentage = 0.15
 			#The multiplier for minimum group size of baby wither skeleton spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			minSizePercentage = 0.5
+			minSizePercentage = 0.15
 			#The multiplier for maximum group size of baby wither skeleton spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			maxSizePercentage = 0.5
+			maxSizePercentage = 0.15
 			#The multiplier for spawn cost per entity of baby wither skeleton spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
 			spawnCostPerEntityPercentage = 1.0
