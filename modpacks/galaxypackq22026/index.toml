@@ -297,6 +297,10 @@ file = "config/subtle_effects/items.toml"
 hash = "af2430d7275230c95137779d11c87332517e81c67e8ce2a99847dbdd49009569"
 
 [[files]]
+file = "config/tacztweaks.json"
+hash = "5716ddd3040257fdadbff896bfad3b130a4e14e299dd521dee59100a8e7691ad"
+
+[[files]]
 file = "config/veinmining-client.toml"
 hash = "1516b40ca99aa02403451a662e2fd2914cfa90840a9c8240e2144417916f3f61"
 
@@ -395,6 +399,11 @@ metafile = true
 [[files]]
 file = "mods/advancedae.pw.toml"
 hash = "0e62e1f56af52f284880505e2265d4ee5c87735cb221e1633daca580d7dae606"
+metafile = true
+
+[[files]]
+file = "mods/advancedperipherals.pw.toml"
+hash = "22023046d65c5c9c0cee0c575c44129414c8a702b06f2f0129ac918a4180495e"
 metafile = true
 
 [[files]]
