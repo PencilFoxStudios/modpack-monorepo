@@ -1653,6 +1653,11 @@ hash = "168b3ee3fa2fe18f712c593d9d90e8b3a8a6a10564376af98bcc6f9719506641"
 metafile = true
 
 [[files]]
+file = "mods/tacz-tweaks.pw.toml"
+hash = "ec4a1e758d1ea95b20fc8d34f5fbb1a2b685509c995a4ff4ce7ffe2c2486ba46"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "6650168c5eacebe05e9fad8eb19a8e5ef937ecc6e88b909a1231d49896e66b61"
 metafile = true
